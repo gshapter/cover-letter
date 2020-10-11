@@ -68,7 +68,7 @@ body {
 .container_image{
   align-self: flex-start;
   width: 300px;
-  height: 80px;
+  height: 64px;
   background: url(/images/signature1.png);
   background-size: cover;
 }
