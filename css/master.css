@@ -67,7 +67,7 @@ line-height: 1.5;
 
 }
 
-.container_text--link:link:active, .container_text--link:visited:active {
+.container_text--link:link:active, .container_text--link:visited {
   color: #E46363;
 }
 
