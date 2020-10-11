@@ -21,7 +21,6 @@ body {
 .container_item {
   flex: none;
   width: auto;
-  order: 2;
   flex-grow: 0;
   margin: 0;
   margin-bottom: 3rem;
