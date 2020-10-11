@@ -48,7 +48,7 @@ font-size: 3rem;
 line-height: 1.5;
 }
 
-a {
+.container_text--link {
   color: #F87E7E;
   text-decoration: none;
   background-image: linear-gradient(#FFF5EE, #FFF5EE),
