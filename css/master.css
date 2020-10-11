@@ -18,7 +18,7 @@ body {
 .container_item {
   width: 100%;
   margin: 0;
-  margin-bottom: 3rem;
+  margin-top: 3rem;
   color: #294C6D;
 }
 
@@ -33,7 +33,7 @@ body {
   font-size: 4rem;
   font-weight: 500;
   font-style: italic;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 .container_text {
