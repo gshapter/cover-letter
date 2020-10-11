@@ -9,9 +9,6 @@ body {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   position: relative;
   max-width: 900px;
   padding: 0 16px;
@@ -19,9 +16,7 @@ body {
 }
 
 .container_item {
-  flex: none;
-  width: auto;
-  flex-grow: 0;
+  width: 100%;
   margin: 0;
   margin-bottom: 3rem;
   color: #294C6D;
