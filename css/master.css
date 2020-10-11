@@ -49,8 +49,8 @@ line-height: 1.5;
 }
 
 .container_text--link {
-  color: #F87E7E;
   text-decoration: none;
+  color: #F87E7E;
   background-image: linear-gradient(#FFF5EE, #FFF5EE),
   linear-gradient(#FFD4D4, #FFD4D4),
   linear-gradient(#FFB7B7, #FFB7B7);
