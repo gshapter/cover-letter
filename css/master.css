@@ -75,7 +75,7 @@ a:link:active, a:visited:active {
   align-self: flex-start;
   width: 450px;
   height: 95px;
-  background: url(file:///Users/georgeshapter/Documents/websites/coverletter/images/signature1.png);
+  background: url(/images/signature1.png);
   background-size: cover;
 }
 
