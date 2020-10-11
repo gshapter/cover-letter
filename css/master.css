@@ -9,23 +9,23 @@ body {
 }
 
 .container {
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-position: relative;
-max-width: 900px;
-padding: 0 16px;
-margin: 20rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  max-width: 900px;
+  padding: 0 16px;
+  margin: 20rem auto;
 }
 
 .container_item {
-flex: none;
-width: auto;
-order: 2;
-flex-grow: 0;
-margin: 0;
-margin-bottom: 3rem;
-color: #294C6D;
+  flex: none;
+  width: auto;
+  order: 2;
+  flex-grow: 0;
+  margin: 0;
+  margin-bottom: 3rem;
+  color: #294C6D;
 }
 
 .container_title {
@@ -43,9 +43,9 @@ color: #294C6D;
 }
 
 .container_text {
-font-weight: 400;
-font-size: 3rem;
-line-height: 1.5;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .container_text--link {
@@ -80,7 +80,7 @@ line-height: 1.5;
 }
 
 @media screen and (max-width: 600px) {
-html {
-  font-size: 6px;
-}
+  html {
+    font-size: 6px;
+  }
 }
