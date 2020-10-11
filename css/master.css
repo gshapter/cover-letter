@@ -60,14 +60,14 @@ line-height: 1.5;
   transition: background-size 300ms ease-in-out, background-position 300ms ease-in-out;
 }
 
-a:hover {
+.container_text--link:hover {
   background-size: 10px 4px, 0 4px, 100% 4px;
   background-position: calc(100% + 10px) 100%, 100% 100%, 0 100%;
 }
 
 }
 
-a:link:active, a:visited:active {
+.container_text--link:link:active, .container_text--link:visited:active {
   color: #E46363;
 }
 
