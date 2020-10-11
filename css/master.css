@@ -1,0 +1,86 @@
+html {
+  font-size: 8px;
+}
+
+body {
+  font-family: 'Lora', serif;
+  background-color: #FFF5EE;
+  margin: 0;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+position: relative;
+max-width: 900px;
+padding: 0 16px;
+margin: 20rem auto;
+}
+
+.container_item {
+flex: none;
+width: auto;
+order: 2;
+flex-grow: 0;
+margin: 0;
+margin-bottom: 3rem;
+color: #294C6D;
+}
+
+.container_title {
+  margin-bottom: 8rem;
+  font-size: 7rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.container_subtitle {
+  font-size: 4rem;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 3rem;
+}
+
+.container_text {
+font-weight: 400;
+font-size: 3rem;
+line-height: 1.5;
+}
+
+a {
+  color: #F87E7E;
+  text-decoration: none;
+  background-image: linear-gradient(#FFF5EE, #FFF5EE),
+  linear-gradient(#FFD4D4, #FFD4D4),
+  linear-gradient(#FFB7B7, #FFB7B7);
+  background-size: 10px 4px, 100% 4px, 0 4px;
+  background-position: calc(10px * -1) 100%, 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 300ms ease-in-out, background-position 300ms ease-in-out;
+}
+
+a:hover {
+  background-size: 10px 4px, 0 4px, 100% 4px;
+  background-position: calc(100% + 10px) 100%, 100% 100%, 0 100%;
+}
+
+}
+
+a:link:active, a:visited:active {
+  color: #E46363;
+}
+
+.container_image{
+  align-self: flex-start;
+  width: 450px;
+  height: 95px;
+  background: url(file:///Users/georgeshapter/Documents/websites/coverletter/images/signature1.png);
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+html {
+  font-size: 6px;
+}
+}
