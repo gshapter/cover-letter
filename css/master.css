@@ -15,34 +15,34 @@ body {
   margin: 20rem auto;
 }
 
-.container_item {
+.container__item {
   width: 100%;
   margin: 0;
   margin-top: 3rem;
   color: #294C6D;
 }
 
-.container_title {
+.container__title {
   margin-bottom: 8rem;
   font-size: 7rem;
   font-weight: 700;
   font-style: italic;
 }
 
-.container_subtitle {
+.container__subtitle {
   font-size: 4rem;
   font-weight: 500;
   font-style: italic;
   margin-top: 5rem;
 }
 
-.container_text {
+.container__text {
   font-weight: 400;
   font-size: 3rem;
   line-height: 1.5;
 }
 
-.container_text--link {
+.container__text--link {
   text-decoration: none;
   color: #F87E7E;
   background-image: linear-gradient(#FFF5EE, #FFF5EE),
@@ -54,25 +54,25 @@ body {
   transition: background-size 300ms ease-in-out, background-position 300ms ease-in-out;
 }
 
-.container_text--link:hover {
+.container__text--link:hover {
   background-size: 10px 4px, 0 4px, 100% 4px;
   background-position: calc(100% + 10px) 100%, 100% 100%, 0 100%;
 }
 
 
-.container_text--link:link:active, .container_text--link:visited {
+.container_text--link:link:active, .container__text--link:visited {
   color: #E46363;
 }
 
-.container_text::selection, .container_text--link::selection {
+.container__text::selection, .container__text--link::selection {
   background-color: #FFE6A6;
 }
 
-.container_subtitle::selection, .container_title::selection {
+.container__subtitle::selection, .container__title::selection {
   background-color: #82B5E3;
 }
 
-.container_image{
+.container__image{
   align-self: flex-start;
   width: 300px;
   height: 64px;
