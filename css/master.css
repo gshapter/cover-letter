@@ -68,6 +68,10 @@ body {
   background-color: #FFE6A6;
 }
 
+.container_subtitle::selection, .container_title::selection {
+  background-color: #82B5E3;
+}
+
 .container_image{
   align-self: flex-start;
   width: 300px;
