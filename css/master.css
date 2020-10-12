@@ -42,10 +42,6 @@ body {
   line-height: 1.5;
 }
 
-.container_text::selection {
-  background-color: #FFE6A6;
-}
-
 .container_text--link {
   text-decoration: none;
   color: #F87E7E;
@@ -63,10 +59,13 @@ body {
   background-position: calc(100% + 10px) 100%, 100% 100%, 0 100%;
 }
 
-}
 
 .container_text--link:link:active, .container_text--link:visited {
   color: #E46363;
+}
+
+.container_text::selection, .container_text--link::selection {
+  background-color: #FFE6A6;
 }
 
 .container_image{
