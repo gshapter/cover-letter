@@ -8,6 +8,15 @@ body {
   margin: 0;
 }
 
+.header {
+  width: 100%
+  padding: 2rem;
+}
+
+.header__my-name {
+  
+}
+
 .container {
   position: relative;
   max-width: 900px;
