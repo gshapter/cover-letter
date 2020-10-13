@@ -10,14 +10,14 @@ body {
 
 .header {
   width: 100%;
-  padding: 2rem 4rem;
+  padding: 3rem 5rem;
   background-color: rgba(0, 0, 0, 0.1);
 }
 
 .top-nav__my-name {
   text-decoration: none;
   color: #313337;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .container {
