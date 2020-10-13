@@ -14,7 +14,9 @@ body {
 }
 
 .header__my-name {
-
+  text-decoration: none;
+  color: #313337;
+  font-size: 2rem;
 }
 
 .container {
