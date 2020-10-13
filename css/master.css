@@ -10,7 +10,8 @@ body {
 
 .header {
   width: 100%;
-  padding: 2rem;
+  padding: 2rem 4rem;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .top-nav__my-name {
