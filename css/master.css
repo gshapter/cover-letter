@@ -25,7 +25,6 @@ body {
 
 .top-nav__my-name {
   text-decoration: none;
-  color: #313337;
   font-size: 3rem;
 }
 
@@ -33,7 +32,7 @@ body {
   position: relative;
   max-width: 900px;
   padding: 0 3rem;
-  margin: 20rem auto;
+  margin: 10rem auto;
 }
 
 .container__item {
