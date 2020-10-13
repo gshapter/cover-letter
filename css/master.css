@@ -34,14 +34,28 @@ body {
   color: #294C6D;
 }
 
-.container__title {
+.container__title--bold-italic {
   margin-bottom: 8rem;
   font-size: 7rem;
   font-weight: 700;
   font-style: italic;
 }
 
-.container__subtitle {
+.container__title--regular {
+  margin-bottom: 8rem;
+  font-size: 7rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.container__subtitle--bold-italic {
+  font-size: 4rem;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 5rem;
+}
+
+.container__subtitle--bold {
   font-size: 4rem;
   font-weight: 500;
   font-style: italic;
