@@ -13,7 +13,7 @@ body {
   padding: 2rem;
 }
 
-.header__my-name {
+.top-nav__my-name {
   text-decoration: none;
   color: #313337;
   font-size: 2rem;
