@@ -28,6 +28,10 @@ body {
   font-size: 3rem;
 }
 
+.top-nav__my-name:visited {
+  color: #294C6D;
+}
+
 .container {
   position: relative;
   max-width: 900px;
