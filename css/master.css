@@ -37,6 +37,7 @@ body {
   max-width: 900px;
   padding: 0 3rem;
   margin: 10rem auto;
+  width: 100%;
 }
 
 .container__item {
