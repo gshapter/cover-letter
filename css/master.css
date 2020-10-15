@@ -18,7 +18,6 @@ body {
 }
 
 
-
 .page--cream{
   background-color: #FAF8F4;
   color: #313337;
@@ -150,6 +149,20 @@ body {
   flex: 2;
 }
 
+.column__text--project-title{
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.column__text--project-date{
+  opacity: 0.3;
+  margin-top: 1rem;
+}
+
+.column__text--project-text{
+  font-size: 2.5rem;
+}
+
 
 @media (max-width: 768px) {
   html {
@@ -157,5 +170,8 @@ body {
   }
   .container__item--columns {
     display: block;
+  }
+  .column--first{
+    margin-right: 0;
   }
 }
