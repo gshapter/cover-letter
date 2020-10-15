@@ -88,7 +88,7 @@ body {
   margin-top: 6rem;
 }
 
-.container__text, ul {
+.container__text, li {
   font-weight: 400;
   font-size: 3rem;
   line-height: 1.5;
