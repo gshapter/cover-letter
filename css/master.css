@@ -136,9 +136,18 @@ body {
   background-size: cover;
 }
 
-.column--1 {
+.column--first {
   margin-right: 3rem;
 }
+
+.column--flex-1 {
+  flex: 1;
+}
+
+.column--flex-2 {
+  flex: 2;
+}
+
 
 @media (max-width: 600px) {
   html {
