@@ -85,14 +85,14 @@ body {
   margin-top: 6rem;
 }
 
-.container__subtitle--small-bold {
-  font-size: 2.5rem;
-}
-
 .container__text {
   font-weight: 400;
   font-size: 3rem;
   line-height: 1.5;
+}
+
+.container__subtitle--small-bold {
+  font-size: 2.5rem;
 }
 
 .container__text--link {
