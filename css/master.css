@@ -108,6 +108,10 @@ body {
   background-color: #82B5E3;
 }
 
+.container__image--inline {
+  margin: 3rem 0;
+}
+
 .container__image--signature{
   align-self: flex-start;
   width: 300px;
