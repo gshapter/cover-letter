@@ -155,7 +155,7 @@ body {
   html {
     font-size: 6px;
   }
-  .container__item--column {
+  .container__item--columns {
     display: block;
   }
 }
