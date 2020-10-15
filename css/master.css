@@ -46,6 +46,10 @@ body {
   margin-top: 3rem;
 }
 
+.container__item--columns {
+  flex: auto;
+}
+
 .container__title--bold-italic {
   margin-bottom: 8rem;
   font-size: 7rem;
