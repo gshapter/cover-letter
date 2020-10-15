@@ -124,6 +124,10 @@ body {
   background-size: cover;
 }
 
+.column {
+  flex-shrink: 1;
+}
+
 @media (max-width: 600px) {
   html {
     font-size: 6px;
