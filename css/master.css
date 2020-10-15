@@ -47,7 +47,7 @@ body {
 }
 
 .container__item--columns {
-  flex: auto;
+  display: flex;
 }
 
 .container__title--bold-italic {
