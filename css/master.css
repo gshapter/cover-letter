@@ -192,7 +192,16 @@ body {
 .next-page {
   padding: 4rem;
   background-color: white;
-  
+  font-size: 3rem;
+  color: #F87E7E;
+  margin: 16rem auto;
+  border-radius: 1rem;
+  display: block;
+  text-decoration: none;
+}
+
+.next-page:hover {
+  background-color: red;
 }
 
 @media (max-width: 768px) {
