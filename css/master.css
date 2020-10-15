@@ -167,6 +167,11 @@ body {
   margin-bottom: 6rem;
 }
 
+.container__text--quote {
+  border-left: 4px solid #313337;
+  padding-left: 2rem;
+  background-color: rgba(0, 0, 0, 0.05);
+}
 
 @media (max-width: 768px) {
   html {
