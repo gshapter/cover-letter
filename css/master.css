@@ -157,6 +157,7 @@ body {
 .column__text--project-date{
   opacity: 0.3;
   margin-top: 1rem;
+  font-size: 2.5rem;
 }
 
 .column__text--project-text{
