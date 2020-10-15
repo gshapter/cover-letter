@@ -74,14 +74,14 @@ body {
 
 .container__subtitle--bold-italic {
   font-size: 4rem;
-  font-weight: 500;
+  font-weight: 700;
   font-style: italic;
   margin-top: 5rem;
 }
 
 .container__subtitle--bold {
   font-size: 4rem;
-  font-weight: 500;
+  font-weight: 700;
   margin-top: 6rem;
 }
 
@@ -93,7 +93,7 @@ body {
 
 .container__subtitle--small-bold {
   font-size: 3rem;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 2rem;
 }
 
