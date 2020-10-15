@@ -7,12 +7,19 @@ body {
   margin: 0;
 }
 
-.page--cream{
+.page--sand{
   background-color: #FFF5EE;
   color: #294C6D;
 }
 
-.page--milk{
+.page--pink {
+  background-color: #FFF8F7;
+  color: #294C6D;
+}
+
+
+
+.page--cream{
   background-color: #FAF8F4;
   color: #313337;
 }
