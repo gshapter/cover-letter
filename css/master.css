@@ -127,6 +127,7 @@ body {
 
 .container__image--column {
   margin: 0;
+  margin-bottom: 2rem;
 }
 
 .container__image--signature{
@@ -162,6 +163,8 @@ body {
 
 .column__text--project-text{
   font-size: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 6rem;
 }
 
 
