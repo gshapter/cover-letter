@@ -12,6 +12,11 @@ body {
   color: #294C6D;
 }
 
+.page--dark {
+  background-color: #23272d;
+  color: #ccc;
+}
+
 .page--pink {
   background-color: #FFF8F7;
   color: #294C6D;
