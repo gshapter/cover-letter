@@ -171,6 +171,7 @@ body {
 .column__text--project-title{
   font-weight: 700;
   margin-top: 0;
+  text-decoration: none;
 }
 
 .column__text--project-date{
