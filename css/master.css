@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+.page--white{
+  color: #313337;
+}
+
 .page--sand{
   background-color: #FFF5EE;
   color: #294C6D;
@@ -21,7 +25,6 @@ body {
   background-color: #FFF8F7;
   color: #294C6D;
 }
-
 
 .page--cream{
   background-color: #FAF8F4;
