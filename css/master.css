@@ -11,6 +11,10 @@ a, a:visited{
   color: inherit;
 }
 
+ul {
+  padding: 0;
+}
+
 .page--white{
   background-color: #F8FAFF;
   color: #294C6D;
@@ -250,6 +254,40 @@ a, a:visited{
 
 .bottom-nav__button--right {
   text-align: right;
+}
+
+.menu {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  background-color: rgba(248, 126, 126, 0.7);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__list {
+  width: 700px;
+}
+
+.menu__item {
+  list-style: none;
+  font-size: 5.5rem;
+  padding: 1.8rem 3rem;
+  color: #D45B5B;
+}
+
+.menu__item--current, .menu__item:hover {
+  font-style: italic;
+  color: white;
+}
+
+.menu--hidden {
+  display: none;
 }
 
 @media (max-width: 768px) {
