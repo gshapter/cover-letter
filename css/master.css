@@ -22,8 +22,11 @@ a, a:visited{
 }
 
 .page--dark {
-  background-color: #23272d;
-  color: #ccc;
+  background-color: #4c5262;
+  color: #dde0e2;
+
+  color: #dde0e2;
+  background-color: #494c45;
 }
 
 .page--pink {
@@ -75,28 +78,31 @@ a, a:visited{
   display: flex;
 }
 
-.container__title--bold-italic {
+.container__title {
   margin-bottom: 8rem;
   font-size: 7rem;
+}
+
+.container__title--bold-italic {
   font-weight: 700;
   font-style: italic;
 }
 
 .container__title--regular {
-  margin-bottom: 8rem;
-  font-size: 7rem;
   font-weight: 400;
 }
 
-.container__subtitle--bold-italic {
+.container__subtitle {
   font-size: 4rem;
+}
+
+.container__subtitle--bold-italic {
   font-weight: 700;
   font-style: italic;
   margin-top: 5rem;
 }
 
 .container__subtitle--bold {
-  font-size: 4rem;
   font-weight: 700;
   margin-top: 6rem;
 }
@@ -228,4 +234,17 @@ a, a:visited{
   .column--first{
     margin-right: 0;
   }
+}
+
+@media (prefers-color-scheme: dark) {
+  .page--cream {
+    background-color: #494c45;
+    color:
+  }
+
+  .page--cream {
+    background-color: #494c45;
+    color:
+  }
+
 }
