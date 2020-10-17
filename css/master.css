@@ -237,9 +237,19 @@ a, a:visited{
 }
 
 @media (prefers-color-scheme: dark) {
+
+  .page--white {
+    background-color: #676a77;
+    color: #e8ecfb;
+  }
+
+  .page--cream .container__title, .page--cream .container__subtitle, .page--cream .top-nav__my-name {
+    color: #f1f3f9;
+  }
+
   .page--cream {
     background-color: #494c45;
-    color: #c0c5c5;
+    color: #c0c5c5; #676a77
   }
 
   .page--cream .container__title, .page--cream .container__subtitle, .page--cream .top-nav__my-name {
