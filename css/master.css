@@ -241,7 +241,7 @@ a, a:visited{
 }
 
 .bottom-nav__button--right {
-
+  text-align: right;
 }
 
 @media (max-width: 768px) {
