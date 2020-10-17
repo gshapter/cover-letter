@@ -242,7 +242,7 @@ a, a:visited{
     color: #dde0e2;
   }
 
-  .page--cream .container__title, .container__subtitle, .top-nav__my-name{
+  .page--cream .container__title, .page--cream .container__subtitle, .page--cream .top-nav__my-name{
     color: #f3f4f7
   }
 
