@@ -155,7 +155,7 @@ a, a:visited{
 }
 
 .container__image {
-  border-radius: 1rem;
+  border-radius: 2rem;
 }
 
 .container__image--inline {
