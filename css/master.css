@@ -230,10 +230,12 @@ a, a:visited{
 .bottom-nav {
   width: 100%;
   display: flex;
+  background-color: currentColor;
 }
 
 .bottom-nav__button {
-  padding: 5rem;
+  padding: 10rem;
+  color: white;
 }
 
 .bottom-nav__button--left{
