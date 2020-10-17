@@ -239,12 +239,20 @@ a, a:visited{
 @media (prefers-color-scheme: dark) {
   .page--cream {
     background-color: #494c45;
-    color: #dde0e2;
+    color: #c0c5c5;
   }
 
-  .page--cream .container__title, .page--cream .container__subtitle, .page--cream .top-nav__my-name{
-    color: #f3f4f7
+  .page--cream .container__title, .page--cream .container__subtitle, .page--cream .top-nav__my-name {
+    color: #f3f4f7;
   }
 
+  .page--blue {
+    background-color: #425165;
+    color: #c4cdd8;
+  }
+
+  .page--blue .container__title, .page--blue .container__subtitle, .page--blue .top-nav__my-name {
+    color: #eceff3;
+  }
 
 }
