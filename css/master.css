@@ -105,9 +105,15 @@ a, a:visited{
   line-height: 1.5;
 }
 
-.container__text--caption{
-  font-size: 1rem;
+.container__caption--regular {
+  font-size: 1.8rem;
   opacity: 0.4;
+  margin-top: -1rem;
+  margin-bottom: 3rem;
+}
+
+.container__caption--italic {
+  font-style: italic;
 }
 
 .container__text--bio {
