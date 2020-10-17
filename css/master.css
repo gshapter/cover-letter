@@ -105,7 +105,12 @@ a, a:visited{
   line-height: 1.5;
 }
 
-.container_text--bio {
+.container__text--caption{
+  font-size: 1rem;
+  opacity: 0.4;
+}
+
+.container__text--bio {
   margin-bottom: 12rem;
   margin-top: -4rem;
 }
