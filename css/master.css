@@ -8,7 +8,7 @@ body {
 }
 a, a:visited{
   text-decoration: none;
-  color: #294C6D;
+  color: inherit;
 }
 
 .page--white{
@@ -235,7 +235,7 @@ a, a:visited{
 
 .bottom-nav__button {
   padding: 10rem;
-  color: white;
+  color: white !important;
 }
 
 .bottom-nav__button--left{
