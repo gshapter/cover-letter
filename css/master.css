@@ -239,12 +239,12 @@ a, a:visited{
 @media (prefers-color-scheme: dark) {
   .page--cream {
     background-color: #494c45;
-    color:
+    color: #dde0e2;
   }
 
-  .page--cream {
-    background-color: #494c45;
-    color:
+  .page--cream .container__title, .container__subtitle, .top-nav__my-name{
+    color: #f3f4f7
   }
+
 
 }
