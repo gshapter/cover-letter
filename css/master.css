@@ -23,7 +23,7 @@ a, a:visited{
 
 .page--pink {
   background-color: #FFF8F7;
-  color: #294C6D;
+  color: #bb7073;
 }
 
 .page--cream {
@@ -46,7 +46,7 @@ a, a:visited{
 }
 
 .top-nav__my-name:visited {
-  color: #294C6D;
+  color: currentColor;
 }
 
 .container {
