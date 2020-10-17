@@ -255,4 +255,14 @@ a, a:visited{
     color: #eceff3;
   }
 
+  .page--pink {
+    background-color: #d4857a;
+    color: #f9e5e2;
+  }
+
+  .page--pink .container__title, .page--pink .container__subtitle, .page--pink .top-nav__my-name {
+    color: #fff8f7;
+  }
+
+
 }
