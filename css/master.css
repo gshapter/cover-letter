@@ -231,6 +231,7 @@ a, a:visited{
   width: 100%;
   display: flex;
   background-color: currentColor;
+  margin-top: 10rem;
 }
 
 .bottom-nav__button {
