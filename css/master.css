@@ -21,14 +21,6 @@ a, a:visited{
   color: #294C6D;
 }
 
-.page--dark {
-  background-color: #4c5262;
-  color: #dde0e2;
-
-  color: #dde0e2;
-  background-color: #494c45;
-}
-
 .page--pink {
   background-color: #FFF8F7;
   color: #294C6D;
@@ -41,7 +33,7 @@ a, a:visited{
 
 .page--blue{
   background-color: #F5F7FB;
-  color: #313337;
+  color: #294C6D;
 }
 
 .header {
