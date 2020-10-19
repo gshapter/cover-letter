@@ -316,7 +316,7 @@ a, a:visited{
 }
 
 .menu__item--activePage {
-  opacity: 0.5;
+  opacity: 0.3;
   }
 
 .menu__item:hover {
