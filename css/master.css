@@ -286,7 +286,7 @@ a, a:visited{
 
 .top-nav__menu-button--close {
   position: fixed;
-  top: 3rem;
+  top: 6rem;
   right: 3rem;
   color: white;
 }
