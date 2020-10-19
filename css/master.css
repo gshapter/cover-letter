@@ -284,14 +284,14 @@ a, a:visited{
 
 .top-nav__menu-button--close {
   position: fixed;
-  top: 6rem;
+  top: 3rem;
   right: 3rem;
   color: white;
 }
 
 .menu {
   z-index: 2;
-  position: fixed;
+  position: absolute;
   top: 0;
   width: -webkit-fill-available;
   height: -webkit-fill-available;
