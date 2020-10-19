@@ -252,15 +252,50 @@ a, a:visited{
   text-align: right;
 }
 
+.top-nav__menu-button {
+  float: right;
+  padding-right: 3rem;
+  margin-left: 1rem;
+  font-size: 3rem;
+  color: currentColor;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+#top-nav__menu-arrow--open {
+  transform-origin: center;
+  transform: rotate(180deg);
+  fill: currentColor;
+  margin-right: 1rem;
+}
+
+.top-nav__menu-arrow {
+  margin-right: 0.5rem;
+}
+
+.top-nav__menu-button:hover {
+  margin-right: 1rem;
+}
+
+#top-nav__menu-arrow--close {
+  fill: white;
+  margin-left: 1rem;
+}
+
+.top-nav__menu-button--close {
+  position: fixed;
+  top: 3rem;
+  right: 3rem;
+  color: white;
+}
+
 .menu {
   z-index: 2;
   position: fixed;
   top: 0;
   width: -webkit-fill-available;
   height: -webkit-fill-available;
-  background-color: rgba(248, 126, 126, 0.7);
-  -webkit-backdrop-filter: blur(16px);
-  backdrop-filter: blur(16px);
+  background-color: currentColor;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -277,12 +312,16 @@ a, a:visited{
   list-style: none;
   font-size: 5.5rem;
   padding: 1.8rem 3rem;
-  color: #D45B5B;
+  color: #ffffff80;
 }
 
-.menu__item--current, .menu__item:hover {
+.menu__item--activePage {
+  text-decoration: line-through;
+  }
+
+.menu__item:hover {
   font-style: italic;
-  color: white;
+  color: white !important;
 }
 
 .menu--hidden {
@@ -301,6 +340,9 @@ a, a:visited{
   }
   .bottom-nav__button--left{
     display: none;
+  }
+  .top-nav__menu-button:hover {
+    margin-right: 0;
   }
 }
 
