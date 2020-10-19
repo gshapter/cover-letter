@@ -1,6 +1,6 @@
 function revealMenu() {
   document.getElementById("menu").className = "menu";
-  document.getElementsByClassName(".top-nav__menu-button--close").classList.remove("hidden");
+  document.getElementById("top-nav__menu-button--close").classList.remove("hidden");
   const menuItems = document.querySelectorAll(".menu__item a")
   menuItems.forEach(item => {
     if (item.pathname === document.location.pathname) {
@@ -11,5 +11,5 @@ function revealMenu() {
 
 function closeMenu() {
   document.getElementById("menu").classList.add("menu--hidden");
-  document.querySelectorAll(".top-nav__menu-button--close").classList.add("hidden");
+  document.getElementById("top-nav__menu-button--close").classList.add("hidden");
 }
