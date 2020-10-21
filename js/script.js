@@ -1,5 +1,5 @@
 function revealMenu() {
-  document.getElementById("menu").className = "menu";
+  document.getElementById("menu").classList.remove("menu--hidden");
   document.getElementById("top-nav__menu-button--close").classList.remove("hidden");
   const menuItems = document.querySelectorAll(".menu__item a")
   menuItems.forEach(item => {
