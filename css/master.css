@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: 'Lora', serif;
-  font-size: 3rem;
+  font-size: 24px;
   background-color: #FFF5EE;
   margin: 0;
   overflow-x: hidden;
@@ -13,20 +13,20 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(12, 104px);
-  grid-template-rows: 104px 374px 104px 192px 104px 676px 104px 676px;
+  grid-template-rows: 104px 374px 104px 192px 104px 676px 104px 676px 630px 104px 676px 630px 400px;
   grid-column-gap: 32px;
   grid-row-gap: 0px;
   position: relative;
   width: 1600px;
   padding: 0;
-  margin: 0 0 0 -816px;
+  margin: 0 0 0 -800px;
   left: 50%;
 }
 
 .icon {
-  border-radius: 2rem;
+  border-radius: 16px;
   height: 104px;
-  margin-bottom: 2rem;
+  margin-bottom: 16px;
 }
 
 .icon--left-side-icon {
@@ -36,15 +36,16 @@ body {
 .icon--nav-icon {
   grid-column-end: span 1;
   grid-row-start: 3;
+  width: 104px;
 }
 
 .hire-me {
   grid-column-start: 9;
   grid-column-end: 12;
-  border-radius: 0 0 2rem 2rem;
+  border-radius: 0 0 16px 16px;
   background-color: yellow;
   color: black;
-  padding: 3rem;
+  padding: 24px;
 }
 
 .index-title {
@@ -56,7 +57,7 @@ body {
 
 .icon--home {
   background-color: red;
-  border-radius: 0 0 2rem 2rem;
+  border-radius: 0 0 16px 16px;
 }
 
 .icon--about {
@@ -77,7 +78,7 @@ body {
 
 .nav-icon__text {
   grid-column-end: span 2;
-  padding-top: 2rem;
+  padding-top: 16px;
 }
 
 .nav--about {
@@ -115,7 +116,7 @@ body {
 }
 
 .section__image-bg--about {
-  border-radius: 2rem;
+  border-radius: 16px;
   height: 380px;
   width: 100%;
   background-color: orange;
@@ -123,24 +124,31 @@ body {
 }
 
 .section__image-bg--papier {
-  border-radius: 2rem;
+  border-radius: 16px;
   height: 380px;
   width: 100%;
   background-color: yellow;
   margin-top: 160px;
 }
 
+.cards-container {
+  grid-row-start: 9;
+  grid-column-start: 3;
+  grid-column-end: span 8;
+  background-color: gray;
+}
+
 h1, .subtitle {
-  font-size: 5rem;
+  font-size: 40px;
   margin: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 8px;
   font-weight: 500;
 }
 
 h2, .nav-text {
-  font-size: 4rem;
+  font-size: 32px;
   margin: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 8px;
   font-weight: 500;
   color: black;
 }
@@ -148,21 +156,21 @@ h2, .nav-text {
 p {
   color: #6A6A6A;
   margin: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 8px;
 }
 
 .bio {
   color: black;
-  margin-top: 3rem;
+  margin-top: 24px;
   line-height: 1.5;
 }
 
 .label-text {
   font-family: sans-serif;
-  font-size: 1.6rem;
+  font-size: 14px;
   letter-spacing: 1px;
   margin: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 8px;
 }
 
 
@@ -189,16 +197,72 @@ a:link:active, a:visited:active {
   color: #E46363;
 }
 
-.container_image{
-  align-self: flex-start;
-  width: 450px;
-  height: 95px;
-  background: url(/images/signature1.png);
-  background-size: cover;
-}
+
 
 @media screen and (max-width: 600px) {
-html {
-  font-size: 6px;
+
 }
+
+@media screen and (max-width: 1360px) {
+.container {
+  width: 100%;
+    grid-template-columns: 0px 104px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0px;
+    left: auto;
+    margin: 0;
+}
+}
+
+@media screen and (max-width: 1000px) {
+
+html {
+  font-size: 8px;
+}
+
+body {
+  overflow-x: auto;
+}
+
+.container {
+  width: 100%;
+    grid-template-columns: repeat(6, 16.666%);
+    grid-template-rows: auto;
+    grid-column-gap: 16px;
+    left: auto;
+    margin: 0 24px 0 24px;
+}
+
+.container > div {
+  grid-column-start: 1;
+  grid-row: auto;
+}
+
+.icon--home, .hire-me {
+  display: none;
+}
+
+.icon--nav-icon, .nav-icon__text {
+  display: none;
+}
+
+.icon--left-side-icon {
+  grid-column-end: span 2;
+  height: calc((100vw - 64px) /3 + 37px);
+}
+
+.index-title {
+  grid-column-end: span 6;
+  grid-row-start: 2;
+  align-self: center;
+}
+
+.section__text {
+  grid-column-start: 1;
+  grid-column-end: span 6;
+}
+
+.section__image {
+  grid-column-start: 1;
+  grid-column-end: span 6;
+}
+
 }
