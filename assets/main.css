@@ -250,6 +250,7 @@ body {
   height: calc((100vw - 64px) /3 + 37px);
 }
 
+
 .index-title {
   grid-column-end: span 6;
   grid-row-start: 2;
