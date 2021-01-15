@@ -245,6 +245,7 @@ body {
 
 .index-title {
   margin-top: 96px;
+  grid-column-end: 8;
 }
 
 .bio {
@@ -257,7 +258,7 @@ body {
 }
 
 .section__text {
-  grid-column-end: span 7;
+  grid-column-end: 8;
 }
 
 }
