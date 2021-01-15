@@ -214,9 +214,8 @@ a:link:active, a:visited:active {
 
 @media screen and (max-width: 1000px) {
 
-
-html {
-  font-size: 6px;
+body {
+  font-size: 2rem;
 }
 
 .container {
@@ -260,6 +259,23 @@ html {
 
 .section__text {
   grid-column-end: 8;
+}
+
+/* Font-size */
+h1 {
+  font-size: 3rem;
+}
+
+.subtitle {
+  font-size: 2.5rem;
+}
+
+h2, .nav-text {
+  font-size: 3rem;
+}
+
+.label-text {
+  font-size: 1.7rem ;
 }
 
 }
