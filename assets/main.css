@@ -164,10 +164,18 @@ button {
   margin-top: 160px;
 }
 
+/* Cards */
+
 .cards-section {
   grid-column-start: 3;
   grid-column-end: span 8;
-  background-color: gray;
+}
+.cards-section__container {
+  display: flex;
+}
+
+.cards-section__title {
+  margin-bottom: 24px;
 }
 
 .cards-section--papier{
@@ -176,6 +184,37 @@ button {
 
 .cards-section--qip{
   grid-row-start: 12;
+}
+
+.card__container{
+
+
+}
+
+.card__container--middle {
+  margin: 0 32px;
+}
+
+.card__image-area {
+  height: 224px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.card__image-area--papier {
+  background-color: #BAE0FF;
+}
+
+.card__text-area {
+
+}
+
+.card__title {
+
+}
+
+.card__description {
+  font-size: 2rem;
 }
 
 h1, .subtitle {
@@ -187,6 +226,14 @@ h1, .subtitle {
 
 h2, .nav-text {
   font-size: 4rem;
+  margin: 0;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: black;
+}
+
+h3 {
+  font-size: 3rem;
   margin: 0;
   margin-bottom: 8px;
   font-weight: 500;
@@ -328,6 +375,8 @@ body {
 .section__text, .cards-section {
   grid-column-end: 8;
 }
+
+
 
 /* Font-size */
 h1, .subtitle {
