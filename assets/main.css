@@ -74,12 +74,13 @@ button {
 }
 
 .hire-me {
-  grid-column-start: 9;
-  grid-column-end: 12;
-  border-radius: 0 0 16px 16px;
-  background-color: #ECC94B;
-  padding: 24px;
-  display: flex;
+    grid-column-start: 3;
+    grid-column-end: 12;
+    border-radius: 0 0 16px 16px;
+    background-color: #ECC94B;
+    padding: 24px;
+    display: flex;
+    margin-left: calc(100% - 370px);
 }
 
 .index-title {
@@ -353,7 +354,7 @@ body {
 
 .container {
   width: 100%;
-    grid-template-columns: 8px 1fr 1fr 1fr 1fr 1fr 1fr 0px;
+    grid-template-columns: 8px 1fr 1fr 1fr 1fr 1fr 1fr 8px;
     grid-template-rows: auto;
     grid-column-gap: 16px;
     left: auto;
@@ -362,7 +363,7 @@ body {
 
 .container > div {
   grid-column-start: 2;
-  grid-column-end: 7;
+  grid-column-end: 8;
   grid-row: auto;
 }
 
@@ -371,7 +372,7 @@ body {
 }
 
 .icon--left-side-icon {
-  grid-column-end: 4;
+  grid-column-end: 4 !important;
   height: calc((100vw - 56px) /3 - 11px);
 }
 
