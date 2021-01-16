@@ -362,6 +362,7 @@ body {
 
 .container > div {
   grid-column-start: 2;
+  grid-column-end: 7;
   grid-row: auto;
 }
 
@@ -370,7 +371,7 @@ body {
 }
 
 .icon--left-side-icon {
-  grid-column-end: span 2;
+  grid-column-end: 4;
   height: calc((100vw - 56px) /3 - 11px);
 }
 
@@ -387,7 +388,7 @@ body {
 
 .section__image {
   margin-bottom: 200px;
-  width: 300px;
+  width: 100%;
 }
 
 .section__text, .cards-section {
