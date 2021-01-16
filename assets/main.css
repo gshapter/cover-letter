@@ -19,6 +19,7 @@ button {
   border: none;
   border-radius: 30px;
   height: 50px;
+  font-family: 'Source Code Pro', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 1.7rem;
   letter-spacing: 1.5px;
 }
@@ -193,6 +194,10 @@ h2, .nav-text {
   color: black;
 }
 
+.nav-text {
+  margin-top: -8px;
+}
+
 p {
   color: #6A6A6A;
   line-height: 1.5;
@@ -214,11 +219,27 @@ p {
 }
 
 .label-text {
-  font-family: sans-serif;
+  font-family: 'Source Code Pro', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 1.7rem ;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   margin: 0;
   margin-bottom: 8px;
+}
+
+.label-text--about {
+  color: #2e7a7b;
+}
+
+.label-text--papier {
+  color: #4399e0;
+}
+
+.label-text--qip {
+  color: #FC8181;
+}
+
+.label-text--paintings {
+  color: #ecc94a;
 }
 
 
