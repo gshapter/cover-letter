@@ -170,6 +170,7 @@ button {
   grid-column-start: 3;
   grid-column-end: span 8;
 }
+
 .cards-section__container {
   display: flex;
 }
@@ -313,8 +314,21 @@ a:link:active, a:visited:active {
 }
 
 
+/* case studies need to work iPad and below */
+@media screen and (max-width: 770px) {
 
-@media screen and (max-width: 600px) {
+  .cards-section__container {
+    display: block;
+  }
+
+  .cards-section {
+    grid-column-start: 3;
+    grid-column-end: span 7;
+  }
+
+  .card__container--middle {
+    margin: 48px 0;
+  }
 
 }
 
@@ -360,7 +374,7 @@ body {
 
 .index-title {
   margin-top: 96px;
-  grid-column-end: 8;
+  grid-column-end: 7;
 }
 
 .bio {
@@ -373,7 +387,7 @@ body {
 }
 
 .section__text, .cards-section {
-  grid-column-end: 8;
+  grid-column-end: 7;
 }
 
 
