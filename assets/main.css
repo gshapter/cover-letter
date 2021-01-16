@@ -146,6 +146,10 @@ button {
   grid-row-start: 10;
 }
 
+.paintings {
+  grid-row-start: 13;
+}
+
 .section__text {
   grid-column-start: 3;
   grid-column-end: span 5;
@@ -154,29 +158,24 @@ button {
 .section__image {
   grid-column-start: 9;
   grid-column-end: span 4;
-}
-
-.section__image-bg--about {
   border-radius: 16px;
   height: 380px;
   width: 100%;
-  background-color: orange;
   margin-top: 160px;
 }
 
-.section__image-bg--papier {
-  border-radius: 16px;
-  height: 380px;
-  width: 100%;
-  background-color: yellow;
-  margin-top: 160px;
-}
-
-.cards-container {
-  grid-row-start: 9;
+.cards-section {
   grid-column-start: 3;
   grid-column-end: span 8;
   background-color: gray;
+}
+
+.cards-section--papier{
+  grid-row-start: 9;
+}
+
+.cards-section--qip{
+  grid-row-start: 12;
 }
 
 h1, .subtitle {
