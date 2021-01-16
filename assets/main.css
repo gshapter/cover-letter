@@ -55,10 +55,12 @@ button {
 
 .icon__inner {
   background-color: white;
-  width: 56px;
-  height: 56px;
-  border-radius: 28px;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .hire-me {
