@@ -327,7 +327,11 @@ a:link:active, a:visited:active {
   }
 
   .card__container--middle {
-    margin: 48px 0;
+    margin: 0;
+  }
+
+  .card__container {
+    margin-bottom: 48px;
   }
 
 }
