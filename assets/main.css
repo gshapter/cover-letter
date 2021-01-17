@@ -27,7 +27,7 @@ button {
 .container {
   display: grid;
   grid-template-columns: repeat(12, 104px);
-  grid-template-rows: 104px 374px 104px 192px 104px 606px 104px 676px 630px 104px 676px 630px 400px;
+  grid-template-rows: 104px 374px 104px 192px 104px 606px 104px 504px 630px 104px 504px 630px 400px;
   grid-column-gap: 32px;
   grid-row-gap: 0px;
   position: relative;
@@ -195,8 +195,7 @@ button {
 }
 
 .card__container{
-
-
+ flex: 1;
 }
 
 .card__container--middle {
