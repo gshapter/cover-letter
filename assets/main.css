@@ -24,6 +24,21 @@ button {
   letter-spacing: 1.5px;
 }
 
+.return-to-top {
+  width: 104px;
+  height: 104px;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  background: rgba(227, 227, 227, 0.5);
+  backdrop-filter: blur(11px);
+  border-radius: 16px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
 .container {
   display: grid;
   grid-template-columns: repeat(12, 104px);
