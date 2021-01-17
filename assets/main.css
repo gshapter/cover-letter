@@ -213,6 +213,10 @@ button {
   background-color: #BAE0FF;
 }
 
+.card__image-area--qip {
+  background-color: #FED7E2;
+}
+
 .card__text-area {
 
 }
@@ -421,6 +425,7 @@ br {
 
   .cards-section__container {
     display: block;
+    margin-bottom: 160px;
   }
 
   .cards-section {
