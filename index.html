@@ -12,9 +12,60 @@
     <a href="#page-top" class="return-to-top">
       <img src="images/up-arrow.svg" alt="An up arrow icon. Click to return to the top of the page.">
     </a>
-    <div class="menu__button">
+    <div onclick='revealMenu()' class="menu__button" style="z-index:3;">
       <img src="images/burger.svg" alt="Menu">
     </div>
+
+    <div class="menu menu--hidden" id="menu">
+
+      <div class="icon icon--nav-icon bg--about nav--about menu__item">
+        <a href="#about" class="scroll-to" style="width: 100%; height: 100%;">
+          <div class="icon__inner">
+            <img src="images/about.svg" alt="About Icon">
+          </div>
+        </a>
+      </div>
+        <div class="nav-icon__text nav--about menu__item">
+          <p class="label-text label-text--about">UPDATED: 01/2021</p>
+          <p class="nav-text">About Me</p>
+        </div>
+        <div class="icon icon--nav-icon bg--papier nav--papier menu__item">
+          <a href="#papier" class="scroll-to" style="width: 100%; height: 100%;">
+            <div class="icon__inner">
+              <img src="images/papier.svg" alt="Papier Logo Icon">
+            </div>
+          </a>
+        </div>
+        <div class="nav-icon__text nav--papier menu__item">
+          <p class="label-text label-text--papier">PREVIOUS WORK</p>
+          <p class="nav-text">Papier</p>
+        </div>
+        <div class="icon icon--nav-icon bg--qip nav--qip">
+          <a href="#qip" class="scroll-to" style="width: 100%; height: 100%;">
+            <div class="icon__inner">
+              <img src="images/qip.svg" alt="Qip Icon">
+            </div>
+          </a>
+        </div>
+        <div class="nav-icon__text nav--qip">
+          <p class="label-text label-text--qip">PREVIOUS WORK</p>
+          <p class="nav-text">Qip</p>
+        </div>
+        <div class="icon icon--nav-icon bg--paintings nav--paintings">
+          <a href="#paintings" class="scroll-to" style="width: 100%; height: 100%;">
+            <div class="icon__inner">
+              <img src="images/painting.svg" alt="Paintings Icon">
+            </div>
+          </a>
+        </div>
+        <div class="nav-icon__text nav--paintings">
+          <p class="label-text label-text--paintings">OTHER</p>
+          <p class="nav-text">Painting</p>
+        </div>
+
+    </div>
+
+
     <div id="page-top" class="container">
         <div class="icon icon--home icon--left-side-icon">
           <div class="icon__inner" style="background-color:#ECC94B">
@@ -197,5 +248,16 @@
     </div>
   </body>
 <script>
+  console.log('this');
+
+  function revealMenu() {
+    document.getElementById("menu").classList.remove("menu--hidden");
+    console.log('hi');
+  }
+
+  function closeMenu() {
+    document.getElementById("menu").classList.add("menu--hidden");
+    document.getElementById("top-nav__menu-button--close").classList.add("hidden");
+  }
 </script>
 </html>

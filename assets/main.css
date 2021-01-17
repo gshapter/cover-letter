@@ -13,6 +13,45 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Menu experiment start */
+
+.menu {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: midnightblue;
+  clip-path: inset(0% 0% 0% 0%);
+  transition: 500ms clip-path ease-in-out;
+  padding: 160px 32px;
+}
+
+.menu__list {
+  padding: 0;
+  width: 700px;
+}
+
+.menu__item {
+  display: inline-block !important;
+}
+
+.menu__item--activePage {
+  opacity: 0.3;
+  }
+
+.menu__item:hover {
+  font-style: italic;
+  color: white !important;
+}
+
+.menu--hidden {
+  clip-path: inset(0% 0% 0% 100%);
+}
+
+/* Menu experiment end */
+
+
 button {
   background-color: black;
   color: white;
