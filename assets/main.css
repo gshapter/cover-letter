@@ -10,6 +10,7 @@ body {
   background-color: #FFFDF9;
   margin: 0;
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
 }
 
 button {
@@ -37,6 +38,10 @@ button {
   display: flex;
   align-items: center;
   justify-content: center
+}
+
+.menu__button {
+  display: none;
 }
 
 .container {
@@ -364,6 +369,19 @@ body {
   font-size: 2rem;
 }
 
+.menu__button {
+  display: flex;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #F2F0ED;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  align-items: center;
+  justify-content: center
+}
+
 .container {
   width: 100%;
     grid-template-columns: 8px 1fr 1fr 1fr 1fr 1fr 1fr 8px;
@@ -470,5 +488,5 @@ br {
   .return-to-top {
     display: none;
   }
-  
+
 }
