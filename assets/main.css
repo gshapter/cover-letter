@@ -467,4 +467,8 @@ br {
     width: 100%;
   }
 
+  .return-to-top {
+    display: none;
+  }
+  
 }
