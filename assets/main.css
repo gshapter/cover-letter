@@ -372,7 +372,7 @@ a.scroll-to {
 /* Menu experiment end */
 
 
-a :not(.scroll-to.*) {
+a {
   color: #F87E7E;
   text-decoration: none;
   background-image: linear-gradient(#FFF5EE, #FFF5EE),
@@ -382,6 +382,10 @@ a :not(.scroll-to.*) {
   background-position: calc(10px * -1) 100%, 100% 100%, 0 100%;
   background-repeat: no-repeat;
   transition: background-size 300ms ease-in-out, background-position 300ms ease-in-out;
+}
+
+.scroll-to {
+  background: none; 
 }
 
 a:hover {
