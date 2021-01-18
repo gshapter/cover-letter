@@ -13,45 +13,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Menu experiment start */
-
-.menu {
-  z-index: 2;
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: midnightblue;
-  clip-path: inset(0% 0% 0% 0%);
-  transition: 500ms clip-path ease-in-out;
-  padding: 160px 32px;
-}
-
-.menu__list {
-  padding: 0;
-  width: 700px;
-}
-
-.menu__item {
-  display: inline-block !important;
-}
-
-.menu__item--activePage {
-  opacity: 0.3;
-  }
-
-.menu__item:hover {
-  font-style: italic;
-  color: white !important;
-}
-
-.menu--hidden {
-  clip-path: inset(0% 0% 0% 100%);
-}
-
-/* Menu experiment end */
-
-
 button {
   background-color: black;
   color: white;
@@ -359,6 +320,50 @@ p {
 }
 
 
+/* Menu experiment start */
+
+.menu {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #2F2D34;
+  clip-path: inset(0% 0% 0% 0%);
+  transition: 200ms clip-path ease-in-out;
+  padding: 16px 32px;
+}
+
+.menu__block {
+  display: flex;
+}
+
+.menu__icon {
+  width: 80px;
+  height:80px;
+  margin-bottom: 24px;
+}
+
+.menu__text {
+  padding: 13px 24px;
+}
+
+.menu__text .nav-text {
+  color: white;
+  font-size: 4rem;
+}
+
+.menu__text .label-text {
+  margin-bottom: 4px;
+}
+
+.menu--hidden {
+  clip-path: inset(0% 0% 0% 100%);
+}
+
+/* Menu experiment end */
+
+
 a :not(.scroll-to.*) {
   color: #F87E7E;
   text-decoration: none;
@@ -438,6 +443,10 @@ body {
 
 .icon--nav-icon, .nav-icon__text, .icon--home, .hire-me {
   display: none;
+}
+
+.nav-text {
+  color: white;
 }
 
 .icon--left-side-icon {

@@ -16,53 +16,60 @@
       <img src="images/burger.svg" alt="Menu">
     </div>
 
-    <div class="menu menu--hidden" id="menu">
-
-      <div class="icon icon--nav-icon bg--about nav--about menu__item">
-        <a href="#about" class="scroll-to" style="width: 100%; height: 100%;">
-          <div class="icon__inner">
-            <img src="images/about.svg" alt="About Icon">
-          </div>
-        </a>
-      </div>
-        <div class="nav-icon__text nav--about menu__item">
-          <p class="label-text label-text--about">UPDATED: 01/2021</p>
-          <p class="nav-text">About Me</p>
+    <div class="menu menu--hidden " id="menu">
+      <p style="font-size: 5rem; color: white; margin-bottom: 32px;">Menu</p>
+      <div onclick='claseMenu()' class="menu__block">
+        <div class="icon menu__icon bg--about menu__item">
+          <a href="#about" class="scroll-to" style="width: 100%; height: 100%;">
+            <div class="icon__inner">
+              <img src="images/about.svg" alt="About Icon">
+            </div>
+          </a>
         </div>
-        <div class="icon icon--nav-icon bg--papier nav--papier menu__item">
+        <div class="nav--about menu__item menu__text">
+            <p class="label-text label-text--about">UPDATED: 01/2021</p>
+            <p class="nav-text">About Me</p>
+        </div>
+      </div>
+      <div onclick='closeMenu()' class="menu__block">
+        <div class="icon menu__icon bg--papier menu__item">
           <a href="#papier" class="scroll-to" style="width: 100%; height: 100%;">
             <div class="icon__inner">
               <img src="images/papier.svg" alt="Papier Logo Icon">
             </div>
           </a>
         </div>
-        <div class="nav-icon__text nav--papier menu__item">
+        <div class="nav--papier menu__item menu__text">
           <p class="label-text label-text--papier">PREVIOUS WORK</p>
           <p class="nav-text">Papier</p>
         </div>
-        <div class="icon icon--nav-icon bg--qip nav--qip">
+      </div>
+      <div onclick='closeMenu()' class="menu__block">
+        <div class="icon menu__icon bg--qip menu__item">
           <a href="#qip" class="scroll-to" style="width: 100%; height: 100%;">
             <div class="icon__inner">
               <img src="images/qip.svg" alt="Qip Icon">
             </div>
           </a>
         </div>
-        <div class="nav-icon__text nav--qip">
+        <div class="nav--qip menu__item menu__text">
           <p class="label-text label-text--qip">PREVIOUS WORK</p>
           <p class="nav-text">Qip</p>
         </div>
-        <div class="icon icon--nav-icon bg--paintings nav--paintings">
+      </div>
+      <div onclick='closeMenu()' class="menu__block">
+        <div class="icon menu__icon bg--paintings menu__item">
           <a href="#paintings" class="scroll-to" style="width: 100%; height: 100%;">
             <div class="icon__inner">
               <img src="images/painting.svg" alt="Paintings Icon">
             </div>
           </a>
         </div>
-        <div class="nav-icon__text nav--paintings">
+        <div class="nav--paintings menu__item menu__text">
           <p class="label-text label-text--paintings">OTHER</p>
           <p class="nav-text">Painting</p>
         </div>
-
+      </div>
     </div>
 
 
