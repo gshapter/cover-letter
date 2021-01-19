@@ -1,7 +1,7 @@
 html {
   font-size: 8px;
   scroll-behavior: smooth;
-  scroll-padding-top: 56px;
+  scroll-padding-top: 112px;
 }
 
 body {
@@ -23,7 +23,9 @@ button {
   font-family: 'Source Code Pro', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 1.7rem;
   letter-spacing: 1.5px;
+  cursor: pointer;
 }
+
 
 .return-to-top {
   width: 104px;
@@ -68,6 +70,25 @@ button {
 
 .icon--left-side-icon {
   grid-column-start: 2;
+  top: 0px;
+  left: 24px;
+  position: sticky;
+}
+
+#about {
+  top: 112px;
+}
+
+#papier {
+  top: 224px;
+}
+
+#qip {
+  top: 336px;
+}
+
+#paintings {
+  top: 448px;
 }
 
 .icon--nav-icon {
@@ -385,7 +406,7 @@ a {
 }
 
 .scroll-to {
-  background: none; 
+  background: none;
 }
 
 a:hover {
@@ -464,6 +485,13 @@ body {
 .icon--left-side-icon {
   grid-column-end: 4 !important;
   height: calc((100vw - 56px) /3 - 11px);
+  position: relative;
+}
+
+
+#about, #papier, #qip, #paintings {
+  top: auto;
+  left: auto;
 }
 
 /* Margins and spacing */
