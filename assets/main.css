@@ -59,6 +59,10 @@ button {
   left: 50%;
 }
 
+.case-study-grid {
+  grid-template-rows: auto;
+}
+
 .icon {
   border-radius: 16px;
   height: 104px;
@@ -73,6 +77,10 @@ button {
   top: 0px;
   left: 24px;
   position: sticky;
+}
+
+.no-stick {
+  position: unset;
 }
 
 #about {
@@ -122,6 +130,7 @@ button {
     padding: 24px;
     display: flex;
     margin-left: calc(100% - 370px);
+    height: fit-content;
 }
 
 .index-title {
@@ -269,6 +278,50 @@ button {
   font-size: 2rem;
 }
 
+
+.content__title-section{
+  grid-column-start: 3;
+  grid-column-end: span 8;
+  grid-row-start: 2;
+  display: flex;
+  padding: 54px 0;
+}
+
+.content__title-container {
+  flex: 1;
+}
+
+.content__image--hero {
+  grid-column-start: 2;
+  grid-column-end: span 10;
+  grid-row-start: 3;
+  border-radius: 16px;
+  height: 500px;
+}
+
+.content__image {
+  grid-column-start: 3;
+  grid-column-end: span 8;
+  border-radius: 16px;
+}
+
+.content__overview {
+  grid-column-start: 3;
+  grid-column-end: span 8;
+  display: flex;
+  grid-row-start: 4;
+  padding: 80px 0;
+}
+
+.content__overview-block {
+  flex: 1;
+  margin-left: 32px;
+}
+
+.content__overview-block:first-of-type {
+  margin-left: 0;
+}
+
 h1, .subtitle {
   font-size: 5rem;
   margin: 0;
@@ -308,6 +361,7 @@ p {
   font-size: 2rem;
   font-weight: 700;
   width: 240px;
+  margin-bottom: 8px;
 }
 
 .bio {
@@ -484,7 +538,9 @@ body {
 
 .icon--left-side-icon {
   grid-column-end: 4 !important;
-  height: calc((100vw - 56px) /3 - 11px);
+  /* height: calc((100vw - 56px) /3 - 11px); */
+  height: 104px;
+  width: 104px;
   position: relative;
 }
 
