@@ -213,7 +213,7 @@ button {
 
 .section__image {
   grid-column-start: 9;
-  grid-column-end: 12;
+  grid-column-end: -1;
   height: 380px;
   margin: 64px 0 0 0;
 }
@@ -227,8 +227,12 @@ button {
 .section__pattern {
   width: 100%;
   border-radius: 16px 16px 16px 16px;
-  height: 380px;
+  height: 340px;
   margin-top: -300px;
+}
+
+.section__pattern-2 {
+  display: none;
 }
 
 /* Cards */
@@ -588,21 +592,47 @@ body {
 
 .section__image {
   margin: 64px 0 400px 0;
-  width: 100%;
+  grid-column-start: 1 !important;
+  grid-column-end: -1 !important;
 }
 
 .section__inner-image {
   width: 60%;
-  margin: 0 0 0 0;
+  margin: -160px 20%;
 }
 
 .section__pattern {
-  width: 80%;
-  border-radius: 0 0 0 0;
+  margin: -160px 0 0 50%;
+  border-radius: 16px 0 0 16px;
+  width: 50%;
 }
 
-.section__text, .cards-section {
-  grid-column-end: 7;
+.section__pattern-2 {
+  display: block;
+  height: 190px;
+  width: 50%;
+  margin: 0 0 0 0;
+  border-radius: 0 16px 16px 0;
+}
+
+.about-color {
+  background-color: #2e7a7b;
+}
+
+.papier-color {
+  background-color: #4399e0;
+}
+
+.qip-color {
+  background-color: #FC8181;
+}
+
+.paintings-color {
+  background-color: #ecc94a;
+}
+
+.section__text {
+  grid-column-end: 8;
 }
 
 
@@ -661,7 +691,7 @@ br {
     grid-column-start: 1 !important;
     grid-column-end: -1 !important;
     border-radius: 0px;
-    margin: 64px 0 200px 0
+    margin: 64px 0 50vw 0
   }
 
   .section__inner-image {
@@ -675,6 +705,10 @@ br {
     border-radius: 0 0 0 0;
     margin: -250px 0 0 0;
     height: 300px;
+  }
+
+  .section__pattern-2 {
+    display: none;
   }
 
   .return-to-top {
