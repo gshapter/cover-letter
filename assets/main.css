@@ -226,7 +226,7 @@ button {
 
 .section__pattern {
   width: 100%;
-  border-radius: 16px;
+  border-radius: 16px 16px 16px 16px;
   height: 380px;
   margin-top: -300px;
 }
@@ -501,11 +501,14 @@ a:link:active, a:visited:active {
 
 .section__image {
   grid-column-end: span 3;
-  border-radius: 16px 0 0 16px;
 }
 
 .section__inner-image {
   width: 100%;
+}
+
+.section__pattern {
+  border-radius: 16px 0 0 16px;
 }
 
 .hire-me {
@@ -571,7 +574,7 @@ body {
 /* Margins and spacing */
 
 .index-title {
-  margin: 160px 0;
+  margin: 160px 0 160px 0;
   grid-column-end: 7;
   max-width: 800px;
 }
@@ -587,6 +590,11 @@ body {
 
 .section__inner-image {
   width: 60%;
+}
+
+.section__pattern {
+  width: 100vw;
+  border-radius: 0 0 0 0;
 }
 
 .section__text, .cards-section {
@@ -679,7 +687,7 @@ br {
   }
 
   .index-title {
-    margin-top: 96px;
+    margin: 96px 0 0 0;
   }
 
 }
