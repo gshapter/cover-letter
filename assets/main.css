@@ -584,7 +584,7 @@ body {
 }
 
 .section__image {
-  margin: 64px 0 200px 0;
+  margin: 64px 0 400px 0;
   width: 100%;
 }
 
@@ -594,7 +594,7 @@ body {
 }
 
 .section__pattern {
-  width: 100vw;
+  width: 80%;
   border-radius: 0 0 0 0;
 }
 
