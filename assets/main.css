@@ -419,6 +419,7 @@ p {
   width: 100vw;
   height: 100vh;
   background-color: #2F2D34;
+  -webkit-clip-path: inset(0% 0% 0% 0%);
   clip-path: inset(0% 0% 0% 0%);
   transition: 200ms clip-path ease-in-out;
   padding: 16px 32px;
@@ -456,6 +457,7 @@ a.scroll-to {
 }
 
 .menu--hidden {
+  -webkit-clip-path: inset(0% 0% 0% 100%);
   clip-path: inset(0% 0% 0% 100%);
 }
 
