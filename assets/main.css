@@ -421,6 +421,7 @@ p {
   background-color: #2F2D34;
   -webkit-clip-path: inset(0% 0% 0% 0%);
   clip-path: inset(0% 0% 0% 0%);
+  transition: 200ms -webkit-clip-path ease-in-out;
   transition: 200ms clip-path ease-in-out;
   padding: 16px 32px;
 }
