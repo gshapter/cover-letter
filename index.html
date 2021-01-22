@@ -16,7 +16,7 @@
       <img src="images/burger.svg" alt="Menu">
     </div>
 
-    <div class="menu menu--hidden " id="menu">
+    <div class="menu menu--hidden" id="menu">
       <p onclick='closeMenu()' style="font-size: 5rem; color: white; margin-bottom: 32px;">Menu</p>
       <div onclick='closeMenu()' class="menu__block">
           <a href="#about" class="scroll-to" style="width: 100%; height: 100%;">
@@ -81,9 +81,11 @@
           </div>
         </a>
         </div>
-        <div class="hire-me">
-          <p class="hire-me__text">I’m on the look out for full-time positions</p>
-          <button type="button" name="button" onclick="location.href='mailto:georgeshapter@hey.com';">HIRE ME!</button>
+        <div class="hire-me-container">
+          <div class="hire-me">
+            <p class="hire-me__text">I’m on the look out for full-time positions</p>
+            <button class="hire-me__button" type="button" name="button" onclick="location.href='mailto:georgeshapter@hey.com';">HIRE ME!</button>
+          </div>
         </div>
         <div class="index-title">
           <h1>George Shapter</h1>
@@ -149,9 +151,8 @@
             <p>In December 2020 I moved to New York where I live with my wife and a <a href="https://www.instagram.com/blindlilbean/" target="_blank">small blind dog, Bean</a>. When I’m not making stuff for the web, I’m painting in my studio.</p>
           </div>
           <div class="section__image about">
-            <div class="section__image bg--about">
-              <img class="section__inner-image" src="images/george.png" alt="A photo of me looking swag. This is actually from 2015 - the before times.">
-            </div>
+            <img class="section__inner-image" src="images/george.png" alt="A photo of me looking swag. This is actually from 2015 - the before times.">
+            <div class="section__pattern bg--about"></div>
           </div>
           <div id="papier" class="icon bg--papier icon--left-side-icon papier">
             <a href="#papier-text" class="scroll-to" style="width: 100%; height: 100%;">
@@ -167,14 +168,13 @@
             <p>I joined the founding team and spent 5 years leading product design and strategy. During this time I launched a range of consumer-facing experiences that helped grow a modest idea into to a multi-platform, multi-store, multi-million-dollar business.</p>
           </div>
           <div class="section__image papier">
-            <div class="section__image bg--papier">
-              <img class="section__inner-image" src="images/george.png" alt="A photo of me looking swag. This is actually from 2015 - the before times.">
-            </div>
+            <img class="section__inner-image" src="images/george.png" alt="A photo of me looking swag. This is actually from 2015 - the before times.">
+            <div class="section__pattern bg--papier"></div>
           </div>
           <div class="cards-section cards-section--papier">
             <h2 class="cards-section__title">Case Studies</h2>
             <div class="cards-section__container">
-              <a class="card__container" href="/work/stationery-editor.html">
+              <a class="card__container" href="/work/stationery-editor.">
 
                   <div class="card__image-area card__image-area--papier">
                   </div>
@@ -216,9 +216,8 @@
             <p>Qip provided services including brand design, product strategy, design sprints, UX/UI design and software development. We worked with early stage startups and internationally known organizations, often in the e-commerce and the culture sectors. </p>
           </div>
           <div class="section__image qip">
-            <div class="section__image bg--qip">
-              <img class="section__inner-image" src="images/george.png" alt="A photo of me looking swag. This is actually from 2015 - the before times.">
-            </div>
+            <img class="section__inner-image" src="images/george.png" alt="A photo of me looking swag. This is actually from 2015 - the before times.">
+            <div class="section__pattern bg--qip"></div>
           </div>
           <div class="cards-section cards-section--qip">
             <h2  class="cards-section__title">Selected Work</h2>
