@@ -325,6 +325,10 @@ button {
   flex: 1;
 }
 
+.content__image > img {
+  width: 100%;
+}
+
 .content__image-2-columns {
   grid-column-start: 3;
   grid-column-end: span 8;
