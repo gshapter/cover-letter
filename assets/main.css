@@ -224,6 +224,12 @@ button {
   margin: 64px 0 0 -32px;
 }
 
+.papier > .section__inner-image {
+  width: 85%;
+  margin: -64px 0 0 -40px;
+}
+
+
 .section__pattern {
   width: 100%;
   border-radius: 16px 16px 16px 16px;
@@ -652,10 +658,21 @@ body {
   margin: -160px 20%;
 }
 
+.papier > .section__inner-image {
+  width: 60%;
+  margin: -210px 30% 0 10%;
+}
+
+
 .section__pattern {
   margin: -160px 0 0 50%;
   border-radius: 16px 0 0 16px;
   width: 50%;
+}
+
+
+.papier > .section__pattern {
+  margin: -360px 0 0 50%;
 }
 
 .section__pattern-2 {
@@ -745,17 +762,18 @@ br {
     margin: 64px 0 50vw 0
   }
 
-  .section__inner-image {
+  .section__inner-image, .papier > .section__inner-image {
     border-radius: 0 16px 16px 0;
     margin: 0 32px 0 0;
     width: 80%;
   }
 
-  .section__pattern {
+
+  .section__pattern, .papier > .section__pattern {
     width: 100%;
     border-radius: 0 0 0 0;
-    margin: -250px 0 0 0;
-    height: 300px;
+    margin: -80vw 0 0 0;
+    height: 80vw;
   }
 
   .section__pattern-2 {
