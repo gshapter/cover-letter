@@ -49,7 +49,7 @@ button {
 .container {
   display: grid;
   grid-template-columns: repeat(12, 104px);
-  grid-template-rows: 104px 374px 104px 192px 104px 606px 104px 504px 630px 104px 504px 630px 400px;
+  grid-template-rows: 104px 374px 104px 192px 104px 606px 104px 504px 630px 104px 504px 630px 200px;
   grid-column-gap: 32px;
   grid-row-gap: 0px;
   position: relative;
@@ -322,6 +322,13 @@ button {
   height: fit-content;
   padding: 24px;
   margin: 56px 0;
+  flex: 1;
+}
+
+.content__image-2-columns {
+  grid-column-start: 3;
+  grid-column-end: span 8;
+  display: flex;
 }
 
 .content__overview {
@@ -344,6 +351,30 @@ button {
 
 .content__overview-block:first-of-type {
   margin: 0 0 0 0;
+}
+
+.paintings-container {
+  grid-column-start: 3;
+  grid-column-end: span 8;
+  grid-row-start: 14;
+  display: flex;
+  margin: 0 0 80px 0;
+}
+
+.paintings-col {
+  flex: 1;
+}
+
+
+.paintings-col:first-of-type {
+  margin: 0 24px 0 0;
+}
+
+.paintings-col > img {
+  width: 100%;
+  border-radius: 16px;
+  margin: 8px 0;
+
 }
 
 /* Typography */
