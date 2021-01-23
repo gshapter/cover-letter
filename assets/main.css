@@ -292,6 +292,7 @@ button {
   font-size: 2rem;
 }
 
+/* Work case study page content */
 
 .content__title-section{
   grid-column-start: 3;
@@ -311,12 +312,16 @@ button {
   grid-row-start: 3;
   border-radius: 16px;
   height: 500px;
+  padding: 24px;
 }
 
 .content__image {
   grid-column-start: 3;
   grid-column-end: span 8;
   border-radius: 16px;
+  height: fit-content;
+  padding: 24px;
+  margin: 56px 0;
 }
 
 .content__overview {
@@ -327,14 +332,21 @@ button {
   padding: 80px 0;
 }
 
+.content__text {
+  grid-column-start: 3;
+  grid-column-end: span 8;
+}
+
 .content__overview-block {
   flex: 1;
-  margin-left: 32px;
+  margin: 0 0 0 32px;
 }
 
 .content__overview-block:first-of-type {
-  margin-left: 0;
+  margin: 0 0 0 0;
 }
+
+/* Typography */
 
 h1, .subtitle {
   font-size: 5rem;
@@ -346,7 +358,7 @@ h1, .subtitle {
 h2, .nav-text {
   font-size: 4rem;
   margin: 0;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   font-weight: 500;
   color: black;
 }
@@ -652,7 +664,7 @@ h1, .subtitle {
 }
 
 h2, .nav-text {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 br {
@@ -715,6 +727,22 @@ br {
     display: none;
   }
 
+  .content {
+    display: block;
+  }
+
+  .content__overview {
+    display: grid;
+    grid: 1fr 1fr / 1fr 1fr;
+    gap: 24px 24px;
+
+  }
+
+  .content__overview-block {
+    margin: 32px 0 0 0 !important;
+  }
+
+
 }
 
 
@@ -734,6 +762,12 @@ br {
 
   .index-title {
     margin: 96px 0 0 0;
+  }
+
+  .content__overview {
+    display: block;
+    padding: 48px 0;
+
   }
 
 }
