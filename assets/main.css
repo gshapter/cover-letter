@@ -300,6 +300,7 @@ button {
 
 .painting {
   border: 12px solid #ecc94a;
+  width: calc(100% - 24px)
 }
 
 /* Work case study page content */
@@ -385,7 +386,6 @@ button {
 }
 
 .paintings-col > img {
-  width: 100%;
   border-radius: 16px;
   margin: 8px 0;
 
