@@ -278,10 +278,25 @@ button {
   height: 224px;
   border-radius: 16px;
   margin-bottom: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70%;
 }
 
 .card__image-area--papier {
   background-color: #BAE0FF;
+}
+
+.stationery-editor {
+  background-image: url(../images/editor-index.png);
+}
+
+.papier-app {
+  background-image: url(../images/editor-index.png);
+}
+
+.wedding-tools {
+  background-image: url(../images/wedding-index.png);
 }
 
 .card__image-area--qip {
@@ -754,7 +769,12 @@ br {
   }
 
   .card__container {
+    display: inline-block;
     margin-bottom: 48px;
+  }
+
+  .card__image-area {
+    height: 70vw;
   }
 
   .section__image {
