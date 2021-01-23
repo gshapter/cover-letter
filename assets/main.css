@@ -215,7 +215,7 @@ button {
   grid-column-start: 9;
   grid-column-end: -1;
   height: 380px;
-  margin: 64px 0 0 0;
+  margin: 40px 0 0 0;
 }
 
 .section__inner-image {
@@ -290,6 +290,10 @@ button {
 
 .card__description {
   font-size: 2rem;
+}
+
+.painting {
+  border: 12px solid #ecc94a;
 }
 
 /* Work case study page content */
@@ -371,7 +375,7 @@ button {
 
 
 .paintings-col:first-of-type {
-  margin: 0 24px 0 0;
+  margin: 0 48px 0 0;
 }
 
 .paintings-col > img {
