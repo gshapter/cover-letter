@@ -769,7 +769,14 @@ br {
   }
 
 
-  .section__pattern, .papier > .section__pattern {
+  .section__pattern {
+    width: 100%;
+    border-radius: 0 0 0 0;
+    margin: -60vw 0 0 0;
+    height: 80vw;
+  }
+
+.papier > .section__pattern {
     width: 100%;
     border-radius: 0 0 0 0;
     margin: -80vw 0 0 0;
