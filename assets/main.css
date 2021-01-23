@@ -762,6 +762,10 @@ br {
     display: block;
   }
 
+  .paintings-col:first-of-type {
+    margin: 0 0 0 0;
+  }
+
   .content__overview {
     display: grid;
     grid: 1fr 1fr / 1fr 1fr;
