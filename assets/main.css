@@ -226,6 +226,7 @@ button {
 
 .papier > .section__inner-image {
   width: 31vw;
+  max-width: 420px;
   margin: -64px 0 0 -40px;
 }
 
@@ -258,6 +259,7 @@ button {
 
 .cards-section--papier{
   grid-row-start: 9;
+  margin-bottom: 80px;
 }
 
 .cards-section--qip{
