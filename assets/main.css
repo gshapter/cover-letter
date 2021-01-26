@@ -280,7 +280,16 @@ button {
   margin-bottom: 16px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 70%;
+  background-size: 80%;
+  transition: all 400ms ease;
+}
+
+.card__container:hover .card__image-area--papier {
+  background-color: #A5D2F8;
+}
+
+.card__container:hover .card__image-area--qip {
+  background-color: #FC8181;
 }
 
 .card__image-area--papier {
@@ -292,10 +301,22 @@ button {
 }
 
 .papier-app {
-  background-image: url(../images/editor-index.png);
+  background-image: url(../images/app-index.png);
 }
 
 .wedding-tools {
+  background-image: url(../images/wedding-index.png);
+}
+
+.architecture {
+  background-image: url(../images/architecture.png);
+}
+
+.globe {
+  background-image: url(../images/globe.png);
+}
+
+.mobicity {
   background-image: url(../images/wedding-index.png);
 }
 
@@ -471,19 +492,19 @@ p {
   margin-bottom: 8px;
 }
 
-.label-text--about {
+.label-text--about, .about > p::selection {
   color: #2e7a7b;
 }
 
-.label-text--papier {
+.label-text--papier, .papier > p::selection {
   color: #4399e0;
 }
 
-.label-text--qip {
+.label-text--qip, .qip > p::selection {
   color: #FC8181;
 }
 
-.label-text--paintings {
+.label-text--paintings, .paintings > p::selection {
   color: #ecc94a;
 }
 
@@ -555,7 +576,7 @@ a {
   transition: background-size 300ms ease-in-out, background-position 300ms ease-in-out;
 }
 
-.scroll-to {
+.scroll-to, .card__container {
   background: none;
 }
 
@@ -564,7 +585,6 @@ a:hover {
   background-position: calc(100% + 10px) 100%, 100% 100%, 0 100%;
 }
 
-}
 
 a:link:active, a:visited:active {
   color: #E46363;
