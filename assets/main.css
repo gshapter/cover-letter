@@ -55,7 +55,7 @@ button {
   position: relative;
   width: 1600px;
   padding: 0;
-  margin: 0 0 0 -800px;
+  margin: 0 0 240px -800px;
   left: 50%;
 }
 
@@ -360,8 +360,9 @@ button {
   grid-column-end: span 10;
   grid-row-start: 3;
   border-radius: 16px;
-  height: 500px;
-  padding: 24px;
+  padding: 5vw 32px;
+  display: flex;
+  justify-content: center;
 }
 
 .content__image {
@@ -369,19 +370,26 @@ button {
   grid-column-end: span 8;
   border-radius: 16px;
   height: fit-content;
-  padding: 24px;
-  margin: 56px 0;
+  padding: 32px;
+  margin: 56px 0 0 0;
   flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
-.content__image > img {
+.content__image > img, .content__image--hero > img {
   width: 100%;
+  max-width: 700px;
 }
 
 .content__image-2-columns {
   grid-column-start: 3;
   grid-column-end: span 8;
   display: flex;
+}
+
+.content__image-2-columns > .column:first-child {
+  margin: 0 32px 0 0;
 }
 
 .content__overview {
@@ -404,6 +412,10 @@ button {
 
 .content__overview-block:first-of-type {
   margin: 0 0 0 0;
+}
+
+.column {
+  flex: 1;
 }
 
 .paintings-container {
@@ -440,10 +452,13 @@ h1, .subtitle {
 
 h2, .nav-text {
   font-size: 4rem;
-  margin: 0;
-  margin-bottom: 16px;
+  margin: 0 0 16px 0;
   font-weight: 500;
   color: black;
+}
+
+.content__text > h2 {
+  margin: 32px 0 16px 0;
 }
 
 h3 {
@@ -463,6 +478,20 @@ p {
   line-height: 1.5;
   margin: 0;
   margin-bottom: 8px;
+}
+
+.caption-centre {
+  font-size: 1.8rem;
+  font-family: 'Source Code Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+  text-align: center;
+  margin: 16px 0 0 0;
+
+}
+
+.caption-left {
+  font-size: 1.8rem;
+  font-family: 'Source Code Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 16px 0 0 0;
 }
 
 .hire-me__text {
@@ -492,19 +521,23 @@ p {
   margin-bottom: 8px;
 }
 
-.label-text--about, .about > p::selection {
+p::selection, a::selection, h1::selection, h2::selection, h3::selection {
+  background-color:  rgba(0, 0, 0, 0.05) ;
+}
+
+.label-text--about, .about > *::selection {
   color: #2e7a7b;
 }
 
-.label-text--papier, .papier > p::selection {
+.label-text--papier, .papier > *::selection {
   color: #4399e0;
 }
 
-.label-text--qip, .qip > p::selection {
+.label-text--qip, .qip > *::selection {
   color: #FC8181;
 }
 
-.label-text--paintings, .paintings > p::selection {
+.label-text--paintings, .paintings > *::selection {
   color: #ecc94a;
 }
 

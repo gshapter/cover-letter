@@ -36,8 +36,8 @@
           <p>A revenue-boosting mobile app for sending greeting cards quickly and often</p>
         </div>
       </div>
-      <div class="content content__image--hero card__image-area--papier">
-        <img src="../images/something.png" alt="">
+      <div class="content content__image--hero bg--papier">
+        <img src="../images/app-hero.png" alt="" style="max-width:678px;">
       </div>
       <div class="content content__overview">
         <div class="content__overview-block">
@@ -58,61 +58,97 @@
         </div>
       </div>
       <div class="content content__text">
-        <h2>Papier needed to increase greeting card product repeat rates</h2>
-        <p>Papier had two main customer groups: wedding organizers, and greeting card senders. The Papier website offered the same experience for both, despite the fact that each had different requirements:</p>
-        <p>We decided to build an MVP mobile app that was focussed exclusively on buying greeting cards, and test this new experience with our users. This new product would encourage repeat purchases and increase the lifetime value of those customers.</p>
-      </div>
-      <div class="content content__image card__image-area--papier">
-        <img src="../images/george.png" alt="">
-      </div>
-      <div class="content content__text">
-        <h2>UX</h2>
-        <p>To ensure a quicker build, we decided to avoid everything to do with styling text. Users would be able to write their message but not pick fonts, colours, etc. This actually helped me create a streamlined, linear user journey. I mapped out a retention loop to illustrate the broad product strategy (a), as well as various user flows, e.g. (b).</p>
-        <p>My UX design process emphasises speed and collaboration. Sketching on paper is the quickest way to explore ideas. Tools like Figma and Invision then allow me to produce prototypes in minutes, so validating assumptions can happen fast.</p>
-      </div>
-      <div class="content content__image card__image-area--papier">
-        <img src="../images/george.png" alt="">
-      </div>
-      <div class="content content__image card__image-area--papier">
-        <img src="../images/george.png" alt="">
-      </div>
-      <div class="content content__text">
-        <h2>Interaction and prototyping</h2>
-        <p>I produced a clickable prototype and used this to demonstrate how a simplified card buying process could feel. From that, our developers produced a working proof of concept.</p>
-        <p>This test app was shared via TestFlight with the Papier team and investors, who agreed to prioritize the project. From there we set about designing and building a more polished release version.</p>
-        <p>There were a couple of key animations I wanted to get right. Tapping on a design from a list of products would zoom to reveal it in more detail.</p>
-        <p>Tapping a button at this point would open the card. This animation would confirm that the chosen design was on a folded card, while making it clear that the next step was writing inside it. The goal was to provide clarity and context to the user.</p>
+        <h2>Introduction</h2>
+        <p>In 2018, Papier sold three main product categories: stationery, wedding invitations and greeting cards. The website was designed to help wedding organizers and stationery lovers make high-value purchases. But greeting card customers were a different story: Papier needed them to make regular, small transactions.</p>
+        <p>I decided to build an MVP mobile app focussed exclusively on sending greeting cards, and test this new experience with our users. This new product would encourage repeat purchases and increase the lifetime value of those customers.</p>
       </div>
       <div class="content content__image-2-columns">
-        <div class="content__image card__image-area--papier">
-          <img src="../images/george.png" alt="">
+        <div class="column">
+          <div class="content__image card__image-area--papier">
+            <img src="../images/app-web-pdp.png" alt="">
+          </div>
+          <p class="content caption-left">Product detail pages on the website contained a bunch of ancillary content and information. Great for complex items, not so useful for the humble greeting card.</p>
         </div>
-        <div class="content__image card__image-area--papier">
-          <img src="../images/george.png" alt="">
+        <div class="column">
+          <div class="content__image card__image-area--papier">
+            <img src="../images/app-pdp.png" alt="">
+          </div>
+          <p class="content caption-left">With the app, we were able to focus purely on the card design – the key decision – and give more prominence to the call to action button.</p>
         </div>
       </div>
       <div class="content content__image card__image-area--papier">
-        <img src="../images/george.png" alt="">
+        <img src="../images/app-screens1.png" alt="">
+      </div>
+      <div class="content content__image card__image-area--papier">
+        <img src="../images/app-loop.png" alt="">
+      </div>
+      <p class="content content__text caption-centre">The habit loop</p>
+      <div class="content content__text">
+        <h2>Getting buy-in</h2>
+        <p>Producing a prototype and getting it into the hands of my team, Papier's leadership, and our investors created excitement. Digging into our user behaviour data and researching competitor mobile app performance provided benchmarks and targets. With a strategy, clear goals and something to help people visualise the product, we were given the go-ahead</p>
+      </div>
+      <div class="content content__image card__image-area--papier">
+        <img src="../images/app-flow.png" alt="">
+      </div>
+      <p class="content content__text caption-centre">The initial user journey map</p>
+      <div class="content content__text">
+        <h2>Moving fast</h2>
+        <p>Papier was still a small startup, and we were low on time and people - so this idea needed to be validated fast. </p>
+        <p>The team built a technical proof of concept based on my initial prototype, while I got to work on finalising the UX and design.</p>
+        <p>The plan was to get something out fast, and iterate from there. We gathered a list of existing customers and new users, and as we released Testflight versions, we sourced feedback and iterated quickly.</p>
+        <h2>Just the essentials</h2>
+        <p>Papier already had a web-based text editor for personalizing messages inside greeting cards, but re-writing this in Swift for iOS would have been complex and time-consuming. This was just one of the features that we radically simplified when building the mobile app.</p>
+
+      </div>
+      <div class="content content__image-2-columns">
+        <div class="column">
+          <div class="content__image card__image-area--papier">
+            <video width="255" height="550" autoplay loop muted style="border-radius: 30px; border: 10px #002554 solid; margin: 77px 0;">
+              <source src="../images/app-web-edit.MP4" type="video/mp4">
+            </video>
+          </div>
+          <p class="content caption-left">Papier's mobile web editor. Powerful text styling tools – great for agonising over the typesetting for your wedding invitations... maybe overkill for a quick birthday card?</p>
+        </div>
+        <div class="column">
+          <div class="content__image card__image-area--papier">
+            <video width="255" height="550" autoplay loop muted style="border-radius: 30px; border: 10px #002554 solid; margin: 77px 0;">
+              <source src="../images/app-edit.MP4" type="video/mp4">
+            </video>
+          </div>
+          <p class="content caption-left">With the app, we did away with the pre-existing message and the text styling options. Instead, tapping the 'customize' button threw users straight into the message writing step.</p>
+        </div>
       </div>
       <div class="content content__text">
-        <h2>Design</h2>
-        <p>The visual design followed Papier’s existing brand aesthetic, with occasional pops of friendly color. Mostly, I let the products do the talking and kept navigational UI in line with Apple human interface guidelines. Good design is invisible, right?</p>
+        <h2>Creating Reminders</h2>
+        <p>Along with a focus on sending cards quickly, the other key part of my retention strategy relied on self-generated reminders. Customers would be prompted to create reminders for annual events - birthdays, anniversaries, etc. at key moments in the flow.</p>
       </div>
       <div class="content content__image card__image-area--papier">
-        <img src="../images/george.png" alt="">
+        <img src="../images/app-reminders.png" alt="">
+      </div>
+      <div class="content content__text">
+        <h2>UI and Interaction Design</h2>
+        <p>In an attempt to save time for the engineers, I opted to stick fairly closely to the iOS human interface guidelines, spacing and UI patterns. </p>
+        <p>The palette is from the Papier design system and is meant to take a backseat and let the greeting card designs do the talking. </p>
+        <p>I produced a set of custom icons and prototyped all the animations in Framer using coffeescript, working with our iOS engineer until we were all happy with the results.</p>
       </div>
       <div class="content content__image card__image-area--papier">
-        <img src="../images/george.png" alt="">
-      </div>
-      <div class="content content__image card__image-area--papier">
-        <img src="../images/george.png" alt="">
-      </div>
-      <div class="content content__image card__image-area--papier">
-        <img src="../images/george.png" alt="">
+        <img src="../images/app-design.png" alt="">
       </div>
       <div class="content content__text">
         <h2>Results</h2>
         <p>A month after launching, Papier Cards was featured as App of The Day on the App Store. Repeat rates for greeting card customers using the app was 150% higher than those who bought via the website. Customers were overwhelmingly happy with the experience, despite the limited range and customization features.</p>
+      </div>
+      <div class="content content__image-2-columns">
+        <div class="column">
+          <div class="content__image card__image-area--papier">
+            <img src="../images/app-aotd.png" alt="">
+          </div>
+        </div>
+        <div class="column">
+          <div class="content__image card__image-area--papier">
+            <img src="../images/app-review.png" alt="">
+          </div>
+        </div>
       </div>
     </div>
   </body>
