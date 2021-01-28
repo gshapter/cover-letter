@@ -375,6 +375,7 @@ button {
   flex: 1;
   display: flex;
   justify-content: center;
+  text-align:center;
   background-color: #f2f0ed;
 
   background-color: #BAE0FF;
@@ -678,10 +679,10 @@ body {
   grid-template-rows: auto;
   grid-column-gap: 16px;
   left: auto;
-  margin: 0;
+  margin: 0 0 160px 0;
 }
 
-.container > div {
+.container > div, .container > p {
   grid-column-start: 2;
   grid-column-end: 8;
   grid-row: auto;
@@ -854,7 +855,7 @@ br {
     height: 80vw;
   }
 
-.papier > .section__pattern {
+  .papier > .section__pattern {
     width: 100%;
     border-radius: 0 0 0 0;
     margin: -80vw 0 0 0;
@@ -888,6 +889,9 @@ br {
     margin: 32px 0 0 0 !important;
   }
 
+  .content__image-2-columns > .column:first-child {
+    margin: 0 0 0 0;
+  }
 
 }
 
