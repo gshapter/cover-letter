@@ -376,6 +376,8 @@ button {
   display: flex;
   justify-content: center;
   background-color: #f2f0ed;
+
+  background-color: #BAE0FF;
 }
 
 .content__image > img, .content__image--hero > img {
