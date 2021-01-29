@@ -372,7 +372,6 @@ button {
   grid-row-start: 3;
   border-radius: 16px;
   padding: 5vw 32px;
-  display: flex;
   justify-content: center;
 }
 
