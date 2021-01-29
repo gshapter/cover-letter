@@ -1,15 +1,323 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+<!--
+
+This site needs major refactoring
+
+To dos:
+[ ] Alt text
+[ ] Share images
+[ ] Favicon
+[ ] Better/more hover states!
+[ ] Menu close icon animation
+[*] Footer
+[ ] Better footer
+[ ] CSS variables
+
+ -->
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/master.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,500;1,600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
     <title>George Shapter - Product Designer</title>
   </head>
   <body>
-    <div class="container">
+    <a href="#page-top" class="return-to-top">
+      <img src="images/up-arrow.svg" alt="An up arrow icon. Click to return to the top of the page.">
+    </a>
+    <div onclick='revealMenu()' class="menu__button" style="z-index:3;">
+      <img src="images/burger.svg" alt="Menu">
+    </div>
 
+    <div class="menu menu--hidden" id="menu">
+      <p onclick='closeMenu()' style="font-size: 5rem; color: white; margin-bottom: 32px;">Menu</p>
+      <div onclick='closeMenu()' class="menu__block">
+          <a href="#about" class="scroll-to" style="width: 100%; height: 100%;">
+          <div class="icon menu__icon bg--about menu__item">
+              <div class="icon__inner">
+                <img src="images/about.svg" alt="About Icon">
+              </div>
+          </div>
+          <div class="nav--about menu__item menu__text">
+              <p class="label-text label-text--about">UPDATED: 01/2021</p>
+              <p class="nav-text">About Me</p>
+          </div>
+        </a>
+      </div>
+      <div onclick='closeMenu()' class="menu__block">
+        <a href="#papier" class="scroll-to" style="width: 100%; height: 100%;">
+          <div class="icon menu__icon bg--papier menu__item">
+              <div class="icon__inner">
+                <img src="images/papier.svg" alt="Papier Logo Icon">
+              </div>
+          </div>
+          <div class="nav--papier menu__item menu__text">
+            <p class="label-text label-text--papier">PREVIOUS WORK</p>
+            <p class="nav-text">Papier</p>
+          </div>
+        </a>
+      </div>
+      <div onclick='closeMenu()' class="menu__block">
+        <a href="#qip" class="scroll-to" style="width: 100%; height: 100%;">
+          <div class="icon menu__icon bg--qip menu__item">
+              <div class="icon__inner">
+                <img src="images/qip.svg" alt="Qip Icon">
+              </div>
+          </div>
+          <div class="nav--qip menu__item menu__text">
+            <p class="label-text label-text--qip">PREVIOUS WORK</p>
+            <p class="nav-text">Qip</p>
+          </div>
+        </a>
+      </div>
+      <div onclick='closeMenu()' class="menu__block">
+        <a href="#paintings" class="scroll-to" style="width: 100%; height: 100%;">
+          <div class="icon menu__icon bg--paintings menu__item">
+              <div class="icon__inner">
+                <img src="images/painting.svg" alt="Paintings Icon">
+              </div>
+          </div>
+          <div class="nav--paintings menu__item menu__text">
+            <p class="label-text label-text--paintings">OTHER</p>
+            <p class="nav-text">Painting</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+    <div id="page-top" class="container">
+        <div class="icon icon--home icon--left-side-icon">
+          <a href="#page-top" class="scroll-to" style="width: 100%; height: 100%;">
+          <div class="icon__inner" style="background-color:#ECC94B">
+            <h2 style="margin:5px 2px 0 0">G</h2>
+          </div>
+        </a>
+        </div>
+        <div class="hire-me-container">
+          <div class="hire-me">
+            <p class="hire-me__text">I’m on the look out for full-time positions</p>
+            <button class="hire-me__button" type="button" name="button" onclick="location.href='mailto:georgeshapter@hey.com';">HIRE ME!</button>
+          </div>
+        </div>
+        <div class="index-title">
+          <h1>George Shapter</h1>
+          <p class="subtitle">Product Designer</p>
+          <p class="bio">I’m a designer based in New York, originally from London. <br class="biolinebreak"> I help product teams launch winning experiences on mobile and web.</p>
+        </div>
+        <div class="icon icon--nav-icon bg--about nav--about">
+          <a href="#about" class="scroll-to" style="width: 100%; height: 100%;">
+            <div class="icon__inner">
+              <img src="images/about.svg" alt="About Icon">
+            </div>
+          </a>
+        </div>
+          <div class="nav-icon__text nav--about">
+            <p class="label-text label-text--about">UPDATED: 01/2021</p>
+            <p class="nav-text">About Me</p>
+          </div>
+          <div class="icon icon--nav-icon bg--papier nav--papier">
+            <a href="#papier" class="scroll-to" style="width: 100%; height: 100%;">
+              <div class="icon__inner">
+                <img src="images/papier.svg" alt="Papier Logo Icon">
+              </div>
+            </a>
+          </div>
+          <div class="nav-icon__text nav--papier">
+            <p class="label-text label-text--papier">PREVIOUS WORK</p>
+            <p class="nav-text">Papier</p>
+          </div>
+          <div class="icon icon--nav-icon bg--qip nav--qip">
+            <a href="#qip" class="scroll-to" style="width: 100%; height: 100%;">
+              <div class="icon__inner">
+                <img src="images/qip.svg" alt="Qip Icon">
+              </div>
+            </a>
+          </div>
+          <div class="nav-icon__text nav--qip">
+            <p class="label-text label-text--qip">PREVIOUS WORK</p>
+            <p class="nav-text">Qip</p>
+          </div>
+          <div class="icon icon--nav-icon bg--paintings nav--paintings">
+            <a href="#paintings" class="scroll-to" style="width: 100%; height: 100%;">
+              <div class="icon__inner">
+                <img src="images/painting.svg" alt="Paintings Icon">
+              </div>
+            </a>
+          </div>
+          <div class="nav-icon__text nav--paintings">
+            <p class="label-text label-text--paintings">OTHER</p>
+            <p class="nav-text">Painting</p>
+          </div>
+          <div id="about" class="icon bg--about icon--left-side-icon about">
+            <a href="#about-text" class="scroll-to" style="width: 100%; height: 100%;">
+              <div class="icon__inner">
+                <img src="images/about.svg" alt="About Icon">
+              </div>
+            </a>
+          </div>
+          <div id="about-text" class="section__text about">
+            <p class="label-text label-text--about">LAST UPDATED: 01/2021</p>
+            <h2>About Me</h2>
+            <p>I’m a designer with 9 years experience bringing consumer products to market, first for clients while running my own <a href="#qip">consultancy business</a>, then leading product at <a href="#papier">Papier</a>, a high-growth startup.</p>
+            <p>I’ve led cross-functional product teams and worked  hands-on across a range of disciplines including product management, research, and design. This breadth of experience makes me a better designer and collaborator.</p>
+            <p>In December 2020 I moved to New York where I live with my wife and a <a href="https://www.instagram.com/blindlilbean/" target="_blank">small blind dog, Bean</a>. When I’m not making stuff for the web, I’m painting in my studio.</p>
+          </div>
+          <div class="section__image about">
+            <div class="section__pattern-2 about-color"></div>
+            <img class="section__inner-image" src="images/george.png" alt="A photo of me looking swag. This is actually from 2015 - the before times.">
+            <div class="section__pattern bg--about"></div>
+          </div>
+          <div id="papier" class="icon bg--papier icon--left-side-icon papier">
+            <a href="#papier-text" class="scroll-to" style="width: 100%; height: 100%;">
+                <div class="icon__inner">
+                  <img src="images/papier.svg" alt="Papier Logo Icon">
+                </div>
+              </a>
+          </div>
+          <div id="papier-text" class="section__text papier">
+            <p class="label-text label-text--papier">2017—2020</p>
+            <h2>Previous Work: Papier</h2>
+            <p><a href="https://www.papier.com/us" target="_blank">Papier</a> is a direct-to-consumer personalized stationery company.</p>
+            <p>I joined the founding team and spent 5 years leading product design and strategy. During this time I launched a range of consumer-facing experiences that helped grow a modest idea into to a multi-platform, multi-store, multi-million-dollar business.</p>
+          </div>
+          <div class="section__image papier">
+            <div class="section__pattern-2 papier-color"></div>
+            <img class="section__inner-image" src="images/papier.png" alt="A photo of me looking swag. This is actually from 2015 - the before times.">
+            <div class="section__pattern bg--papier"></div>
+          </div>
+          <div class="cards-section cards-section--papier">
+            <h2 class="cards-section__title">Case Studies</h2>
+            <div class="cards-section__container">
+              <a class="card__container" href="/work/stationery-editor.html">
+                  <div class="card__image-area card__image-area--papier stationery-editor"></div>
+                  <div class="card__text-area">
+                    <h3 class="card__title">Stationery Editor</h3>
+                    <p class="card__description">The latest iteration of Papier’s web-based product customization tool</p>
+                  </div>
+              </a>
+              <a href="/work/papier-app.html" class="card__container card__container--middle">
+                <div class="card__image-area card__image-area--papier papier-app"></div>
+                <div class="card__text-area">
+                  <h3 class="card__title">Papier Cards for iOS</h3>
+                  <p class="card__description">A revenue-boosting mobile app for sending greeting cards quickly and often</p>
+                </div>
+              </a>
+              <a href="/work/wedding-tools.html" class="card__container">
+                <div class="card__image-area card__image-area--papier wedding-tools"></div>
+                <div class="card__text-area">
+                  <h3 class="card__title">Digital Wedding Tools</h3>
+                  <p class="card__description">Guest list management, e-vites and RSVP collection for wedding organizers</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div  id="qip" class="icon bg--qip icon--left-side-icon qip">
+            <a href="#qip-text" class="scroll-to" style="width: 100%; height: 100%;">
+              <div class="icon__inner">
+                <img src="images/qip.svg" alt="Qip Icon">
+              </div>
+            </a>
+          </div>
+          <div id="qip-text" class="section__text qip">
+            <p class="label-text label-text--qip">2012—2017</p>
+            <h2>Previous Work: Qip</h2>
+            <p>In 2012 I co-founded Qip Creative, a product design and development consultancy. I was responsible for design, in addition to new business development, finance, hiring, and managing our client relationships.</p>
+            <p>Qip provided services including brand design, product strategy, design sprints, UX/UI design and software development. We worked with early stage startups and internationally known organizations, often in the e-commerce and the culture sectors. </p>
+          </div>
+          <div class="section__image qip">
+            <div class="section__pattern-2 qip-color"></div>
+            <img class="section__inner-image" src="images/qip-cards.jpg" alt="">
+            <div class="section__pattern bg--qip"></div>
+          </div>
+          <div class="cards-section cards-section--qip">
+            <h2  class="cards-section__title">Selected Work</h2>
+            <div class="cards-section__container">
+              <div class="card__container">
+                <div class="card__image-area card__image-area--qip jukedeck">
+                </div>
+                <div class="card__text-area">
+                  <p class="label-text label-text--qip">2012—15</p>
+                    <h3 class="card__title">Jukedeck</h3>
+                  <p class="card__description">I designed the Jukedeck’s <a href="https://medium.com/building-jukedeck/designing-the-jukedeck-logo-11146f90c836" target="_blank">visual identity</a> and marketing website, as well as the front-end to their AI-powered music generation software. The company was <a href="https://techcrunch.com/2019/07/23/it-looks-like-titok-has-acquired-jukedeck-a-pioneering-music-ai-uk-startup/" target="_blank">aquired by TikTok</a> in 2019.</p>
+                </div>
+              </div>
+              <div class="card__container card__container--middle">
+                <div class="card__image-area card__image-area--qip globe">
+                </div>
+                <div class="card__text-area">
+                  <p class="label-text label-text--qip">2014</p>
+                    <h3 class="card__title">The Globe Player</h3>
+                  <p class="card__description">Qip designed and built the Globe Player for web and iOS. The first streaming service ever offered by a theatre, it was described in the press as "<a href="https://econsultancy.com/shakespeare-s-globe-player-a-video-on-demand-masterclass/" target="_blank">A video on demand masterclass</a>."</p>
+                </div>
+              </div>
+              <div class="card__container">
+                <div class="card__image-area card__image-area--qip architecture">
+                </div>
+                <div class="card__text-area">
+                  <p class="label-text label-text--qip">2016</p>
+                    <h3 class="card__title">London Architecture Guide</h3>
+                  <p class="card__description">The Architecture Foundation approached us to make an iOS version of the classic book, A Guide To The Architecture Of London.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="paintings" class="icon bg--paintings icon--left-side-icon paintings">
+            <div class="icon__inner">
+              <img src="images/painting.svg" alt="Painting Icon">
+            </div>
+          </div>
+          <div class="section__text paintings">
+            <p class="label-text label-text--paintings">OTHER</p>
+            <h2>Paintings</h2>
+            <p>Outside of my day job I make drawings and oil paintings. Below are a few recent pieces. </p>
+          </div>
+          <div class="content paintings-container">
+            <div class="paintings-col">
+              <img class="painting" src="images/shower.jpg" alt="">
+              <img class="painting" src="images/housemates.jpg" alt="">
+            </div>
+            <div class="paintings-col">
+              <img class="painting" src="images/willkenji.jpg" alt="">
+              <img class="painting" src="images/hambrotwins.jpg" alt="">
+            </div>
+          </div>
+    </div>
+    <div class="container container--footer">
+      <div class="footer__column--1">
+        <p style="color: black; font-size: 2rem; font-weight: 700;">George Shapter</p>
+        <p style="color: black; font-size: 2rem;">Product Designer</p>
+      </div>
+      <div class="footer__column--2">
+        <p class="footer__list-item--heading">AROUND THE WEB</p>
+        <ul>
+          <li class="footer__list-item"><a href="https://www.linkedin.com/in/george-shapter/" target="_blank">LinkedIn</a></li>
+          <li class="footer__list-item"><a href="https://medium.com/@georgeshapter" target="_blank">Medium</a></li>
+          <li class="footer__list-item"><a href="mailto:georgeshapter@hey.com" target="_blank">Email</a></li>
+        </ul>
+      </div>
+      <div class="footer__column--3">
+        <p class="footer__list-item--heading">CASE STUDIES</p>
+        <ul>
+          <li class="footer__list-item"><a href="/work/stationery-editor">Stationery Editor</a></li>
+          <li class="footer__list-item"><a href="/work/papier-app">Papier Cards for iOS</a></li>
+          <li class="footer__list-item"><a href="/work/wedding-tools">Digital Wedding Tools</a></li>
+        </ul>
+      </div>
+      <div class="footer__column--4">
+        <p class="label-text" style="color: black; font-size: 14px; text-align: right; letter-spacing: normal;">Props to <a href="https://doodad.dev/pattern-generator" target="_blank">pattern-generator</a></p>
+      </div>
     </div>
   </body>
-<script> </script>
+<script>
+  function revealMenu() {
+    document.getElementById("menu").classList.remove("menu--hidden");
+  }
+
+  function closeMenu() {
+    document.getElementById("menu").classList.add("menu--hidden");
+  }
+</script>
 </html>
