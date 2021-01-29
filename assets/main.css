@@ -380,7 +380,7 @@ button {
   grid-column-start: 3;
   grid-column-end: span 8;
   border-radius: 16px;
-  height: fit-content;
+  height: auto;
   padding: 32px;
   margin: 56px 0 0 0;
   flex: 1;
