@@ -49,7 +49,7 @@ button {
 .container {
   display: grid;
   grid-template-columns: repeat(12, 104px);
-  grid-template-rows: 104px 374px 104px 192px 104px 606px 104px 504px 630px 104px 504px 630px 200px;
+  grid-template-rows: 104px 374px 104px 192px 104px 606px 104px 424px 630px 104px 504px 630px 200px;
   grid-column-gap: 32px;
   grid-row-gap: 0px;
   position: relative;
@@ -241,12 +241,15 @@ button {
   margin: -64px 0 0 -60px;
 }
 
-
 .section__pattern {
   width: 100%;
   border-radius: 16px 16px 16px 16px;
   height: 340px;
   margin-top: -300px;
+}
+
+.papier > .section__pattern {
+  margin-top: -330px;
 }
 
 .section__pattern-2 {
