@@ -87,8 +87,9 @@ button {
   grid-column-start: 2;
   top: 0px;
   left: 24px;
-  position: sticky;
 }
+
+/* sticky icons
 
 .no-stick {
   position: unset;
@@ -109,6 +110,8 @@ button {
 #paintings {
   top: 448px;
 }
+
+*/
 
 .icon--nav-icon {
   grid-column-end: span 1;
